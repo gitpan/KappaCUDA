@@ -49,6 +49,174 @@ sub this {
 
 package KappaCUDA;
 
+*intptr_fromvoidptr = *KappaCUDAc::intptr_fromvoidptr;
+*unsignedptr_fromvoidptr = *KappaCUDAc::unsignedptr_fromvoidptr;
+*floatptr_fromvoidptr = *KappaCUDAc::floatptr_fromvoidptr;
+*doubleptr_fromvoidptr = *KappaCUDAc::doubleptr_fromvoidptr;
+
+############# Class : KappaCUDA::intArray ##############
+
+package KappaCUDA::intArray;
+use vars qw(@ISA %OWNER %ITERATORS %BLESSEDMEMBERS);
+@ISA = qw( KappaCUDA );
+%OWNER = ();
+%ITERATORS = ();
+sub new {
+    my $pkg = shift;
+    my $self = KappaCUDAc::new_intArray(@_);
+    bless $self, $pkg if defined($self);
+}
+
+sub DESTROY {
+    return unless $_[0]->isa('HASH');
+    my $self = tied(%{$_[0]});
+    return unless defined $self;
+    delete $ITERATORS{$self};
+    if (exists $OWNER{$self}) {
+        KappaCUDAc::delete_intArray($self);
+        delete $OWNER{$self};
+    }
+}
+
+*getitem = *KappaCUDAc::intArray_getitem;
+*setitem = *KappaCUDAc::intArray_setitem;
+*cast = *KappaCUDAc::intArray_cast;
+*frompointer = *KappaCUDAc::intArray_frompointer;
+sub DISOWN {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    delete $OWNER{$ptr};
+}
+
+sub ACQUIRE {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    $OWNER{$ptr} = 1;
+}
+
+
+############# Class : KappaCUDA::unsignedArray ##############
+
+package KappaCUDA::unsignedArray;
+use vars qw(@ISA %OWNER %ITERATORS %BLESSEDMEMBERS);
+@ISA = qw( KappaCUDA );
+%OWNER = ();
+%ITERATORS = ();
+sub new {
+    my $pkg = shift;
+    my $self = KappaCUDAc::new_unsignedArray(@_);
+    bless $self, $pkg if defined($self);
+}
+
+sub DESTROY {
+    return unless $_[0]->isa('HASH');
+    my $self = tied(%{$_[0]});
+    return unless defined $self;
+    delete $ITERATORS{$self};
+    if (exists $OWNER{$self}) {
+        KappaCUDAc::delete_unsignedArray($self);
+        delete $OWNER{$self};
+    }
+}
+
+*getitem = *KappaCUDAc::unsignedArray_getitem;
+*setitem = *KappaCUDAc::unsignedArray_setitem;
+*cast = *KappaCUDAc::unsignedArray_cast;
+*frompointer = *KappaCUDAc::unsignedArray_frompointer;
+sub DISOWN {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    delete $OWNER{$ptr};
+}
+
+sub ACQUIRE {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    $OWNER{$ptr} = 1;
+}
+
+
+############# Class : KappaCUDA::floatArray ##############
+
+package KappaCUDA::floatArray;
+use vars qw(@ISA %OWNER %ITERATORS %BLESSEDMEMBERS);
+@ISA = qw( KappaCUDA );
+%OWNER = ();
+%ITERATORS = ();
+sub new {
+    my $pkg = shift;
+    my $self = KappaCUDAc::new_floatArray(@_);
+    bless $self, $pkg if defined($self);
+}
+
+sub DESTROY {
+    return unless $_[0]->isa('HASH');
+    my $self = tied(%{$_[0]});
+    return unless defined $self;
+    delete $ITERATORS{$self};
+    if (exists $OWNER{$self}) {
+        KappaCUDAc::delete_floatArray($self);
+        delete $OWNER{$self};
+    }
+}
+
+*getitem = *KappaCUDAc::floatArray_getitem;
+*setitem = *KappaCUDAc::floatArray_setitem;
+*cast = *KappaCUDAc::floatArray_cast;
+*frompointer = *KappaCUDAc::floatArray_frompointer;
+sub DISOWN {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    delete $OWNER{$ptr};
+}
+
+sub ACQUIRE {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    $OWNER{$ptr} = 1;
+}
+
+
+############# Class : KappaCUDA::doubleArray ##############
+
+package KappaCUDA::doubleArray;
+use vars qw(@ISA %OWNER %ITERATORS %BLESSEDMEMBERS);
+@ISA = qw( KappaCUDA );
+%OWNER = ();
+%ITERATORS = ();
+sub new {
+    my $pkg = shift;
+    my $self = KappaCUDAc::new_doubleArray(@_);
+    bless $self, $pkg if defined($self);
+}
+
+sub DESTROY {
+    return unless $_[0]->isa('HASH');
+    my $self = tied(%{$_[0]});
+    return unless defined $self;
+    delete $ITERATORS{$self};
+    if (exists $OWNER{$self}) {
+        KappaCUDAc::delete_doubleArray($self);
+        delete $OWNER{$self};
+    }
+}
+
+*getitem = *KappaCUDAc::doubleArray_getitem;
+*setitem = *KappaCUDAc::doubleArray_setitem;
+*cast = *KappaCUDAc::doubleArray_cast;
+*frompointer = *KappaCUDAc::doubleArray_frompointer;
+sub DISOWN {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    delete $OWNER{$ptr};
+}
+
+sub ACQUIRE {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    $OWNER{$ptr} = 1;
+}
+
 
 ############# Class : KappaCUDA::Kappa ##############
 
@@ -724,6 +892,184 @@ sub ACQUIRE {
 }
 
 
+############# Class : KappaCUDA::Command ##############
+
+package KappaCUDA::Command;
+use vars qw(@ISA %OWNER %ITERATORS %BLESSEDMEMBERS);
+@ISA = qw( KappaCUDA );
+%OWNER = ();
+%ITERATORS = ();
+sub new {
+    my $pkg = shift;
+    my $self = KappaCUDAc::new_Command(@_);
+    bless $self, $pkg if defined($self);
+}
+
+sub DESTROY {
+    return unless $_[0]->isa('HASH');
+    my $self = tied(%{$_[0]});
+    return unless defined $self;
+    delete $ITERATORS{$self};
+    if (exists $OWNER{$self}) {
+        KappaCUDAc::delete_Command($self);
+        delete $OWNER{$self};
+    }
+}
+
+*SetType = *KappaCUDAc::Command_SetType;
+*GetType = *KappaCUDAc::Command_GetType;
+*GetName = *KappaCUDAc::Command_GetName;
+*SetTrace = *KappaCUDAc::Command_SetTrace;
+*AnyOrder = *KappaCUDAc::Command_AnyOrder;
+*IsStop = *KappaCUDAc::Command_IsStop;
+*IsAsync = *KappaCUDAc::Command_IsAsync;
+*SetRecipient = *KappaCUDAc::Command_SetRecipient;
+*Notification = *KappaCUDAc::Command_Notification;
+*SetAsync = *KappaCUDAc::Command_SetAsync;
+*ClearAsync = *KappaCUDAc::Command_ClearAsync;
+*SetReady = *KappaCUDAc::Command_SetReady;
+*SetRunning = *KappaCUDAc::Command_SetRunning;
+*SetPaused = *KappaCUDAc::Command_SetPaused;
+*SetCanceled = *KappaCUDAc::Command_SetCanceled;
+*SetFailed = *KappaCUDAc::Command_SetFailed;
+*SetFinished = *KappaCUDAc::Command_SetFinished;
+*UpdateStatus = *KappaCUDAc::Command_UpdateStatus;
+*IsReady = *KappaCUDAc::Command_IsReady;
+*IsRunning = *KappaCUDAc::Command_IsRunning;
+*IsPaused = *KappaCUDAc::Command_IsPaused;
+*IsCanceled = *KappaCUDAc::Command_IsCanceled;
+*IsFailed = *KappaCUDAc::Command_IsFailed;
+*IsFinished = *KappaCUDAc::Command_IsFinished;
+*SetName = *KappaCUDAc::Command_SetName;
+*Execute = *KappaCUDAc::Command_Execute;
+*SetStream = *KappaCUDAc::Command_SetStream;
+*GetStream = *KappaCUDAc::Command_GetStream;
+*NeedStream = *KappaCUDAc::Command_NeedStream;
+sub DISOWN {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    delete $OWNER{$ptr};
+}
+
+sub ACQUIRE {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    $OWNER{$ptr} = 1;
+}
+
+
+############# Class : KappaCUDA::Variable ##############
+
+package KappaCUDA::Variable;
+use vars qw(@ISA %OWNER %ITERATORS %BLESSEDMEMBERS);
+@ISA = qw( KappaCUDA );
+%OWNER = ();
+%ITERATORS = ();
+sub DESTROY {
+    return unless $_[0]->isa('HASH');
+    my $self = tied(%{$_[0]});
+    return unless defined $self;
+    delete $ITERATORS{$self};
+    if (exists $OWNER{$self}) {
+        KappaCUDAc::delete_Variable($self);
+        delete $OWNER{$self};
+    }
+}
+
+*Copy = *KappaCUDAc::Variable_Copy;
+*Free = *KappaCUDAc::Variable_Free;
+*SetAuthority = *KappaCUDAc::Variable_SetAuthority;
+*ForceAuthority = *KappaCUDAc::Variable_ForceAuthority;
+*Dimensions = *KappaCUDAc::Variable_Dimensions;
+*DimSize = *KappaCUDAc::Variable_DimSize;
+*Size = *KappaCUDAc::Variable_Size;
+*ElementSize = *KappaCUDAc::Variable_ElementSize;
+*GetName = *KappaCUDAc::Variable_GetName;
+*Result = *KappaCUDAc::Variable_Result;
+*IsLocked = *KappaCUDAc::Variable_IsLocked;
+*Access = *KappaCUDAc::Variable_Access;
+*DeviceAccess = *KappaCUDAc::Variable_DeviceAccess;
+*TextureAccess = *KappaCUDAc::Variable_TextureAccess;
+*HasTexture = *KappaCUDAc::Variable_HasTexture;
+*TexUnit = *KappaCUDAc::Variable_TexUnit;
+*Relinquish = *KappaCUDAc::Variable_Relinquish;
+*SetAddressMode = *KappaCUDAc::Variable_SetAddressMode;
+*SetFilterMode = *KappaCUDAc::Variable_SetFilterMode;
+*SetTextureFlags = *KappaCUDAc::Variable_SetTextureFlags;
+*SetStream = *KappaCUDAc::Variable_SetStream;
+*GetStream = *KappaCUDAc::Variable_GetStream;
+*VariableDimensions = *KappaCUDAc::Variable_VariableDimensions;
+*IsTextureWritable = *KappaCUDAc::Variable_IsTextureWritable;
+*FromVariable = *KappaCUDAc::Variable_FromVariable;
+*FromLocal = *KappaCUDAc::Variable_FromLocal;
+*FromDevice = *KappaCUDAc::Variable_FromDevice;
+*FromArray = *KappaCUDAc::Variable_FromArray;
+*DeviceMemSet = *KappaCUDAc::Variable_DeviceMemSet;
+*IsReady = *KappaCUDAc::Variable_IsReady;
+sub DISOWN {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    delete $OWNER{$ptr};
+}
+
+sub ACQUIRE {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    $OWNER{$ptr} = 1;
+}
+
+
+############# Class : KappaCUDA::Array ##############
+
+package KappaCUDA::Array;
+use vars qw(@ISA %OWNER %ITERATORS %BLESSEDMEMBERS);
+@ISA = qw( KappaCUDA );
+%OWNER = ();
+%ITERATORS = ();
+sub DESTROY {
+    return unless $_[0]->isa('HASH');
+    my $self = tied(%{$_[0]});
+    return unless defined $self;
+    delete $ITERATORS{$self};
+    if (exists $OWNER{$self}) {
+        KappaCUDAc::delete_Array($self);
+        delete $OWNER{$self};
+    }
+}
+
+*Result = *KappaCUDAc::Array_Result;
+*IsSet = *KappaCUDAc::Array_IsSet;
+*Is3D = *KappaCUDAc::Array_Is3D;
+*CUArray = *KappaCUDAc::Array_CUArray;
+*Width = *KappaCUDAc::Array_Width;
+*Height = *KappaCUDAc::Array_Height;
+*Depth = *KappaCUDAc::Array_Depth;
+*Format = *KappaCUDAc::Array_Format;
+*NumChannels = *KappaCUDAc::Array_NumChannels;
+*Malloc = *KappaCUDAc::Array_Malloc;
+*Free = *KappaCUDAc::Array_Free;
+*Memcpy2D = *KappaCUDAc::Array_Memcpy2D;
+*Memcpy3D = *KappaCUDAc::Array_Memcpy3D;
+*Memcpy2DAsync = *KappaCUDAc::Array_Memcpy2DAsync;
+*Memcpy3DAsync = *KappaCUDAc::Array_Memcpy3DAsync;
+*FromLocal = *KappaCUDAc::Array_FromLocal;
+*FromLocalAsync = *KappaCUDAc::Array_FromLocalAsync;
+*FromDevice = *KappaCUDAc::Array_FromDevice;
+*FromArray = *KappaCUDAc::Array_FromArray;
+*ArrayAccess = *KappaCUDAc::Array_ArrayAccess;
+sub DISOWN {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    delete $OWNER{$ptr};
+}
+
+sub ACQUIRE {
+    my $self = shift;
+    my $ptr = tied(%$self);
+    $OWNER{$ptr} = 1;
+}
+
+
 # ------- VARIABLE STUBS --------
 
 package KappaCUDA;
@@ -737,6 +1083,16 @@ package KappaCUDA;
 *Direction_TexRef = *KappaCUDAc::Direction_TexRef;
 *ROUTINE_LOOP_NAMESPACE = *KappaCUDAc::ROUTINE_LOOP_NAMESPACE;
 *ROUTINE_LOOP_NAME = *KappaCUDAc::ROUTINE_LOOP_NAME;
+*READY = *KappaCUDAc::READY;
+*RUNNING = *KappaCUDAc::RUNNING;
+*PAUSED = *KappaCUDAc::PAUSED;
+*CANCELED = *KappaCUDAc::CANCELED;
+*FINISHED = *KappaCUDAc::FINISHED;
+*FAILED = *KappaCUDAc::FAILED;
+*None = *KappaCUDAc::None;
+*Host = *KappaCUDAc::Host;
+*Device = *KappaCUDAc::Device;
+*Texture = *KappaCUDAc::Texture;
 
-$KappaCUDA::VERSION = '1.1.0';
+$KappaCUDA::VERSION = '1.1.1';
 1;

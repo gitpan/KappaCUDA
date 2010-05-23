@@ -1496,87 +1496,106 @@ SWIG_Perl_SetModule(swig_module_info *module) {
 /* -------- TYPES TABLE (BEGIN) -------- */
 
 #define SWIGTYPE_p_CUDA_CONTEXT_TYPE swig_types[0]
-#define SWIGTYPE_p_CUarray_format swig_types[1]
-#define SWIGTYPE_p_CUcontext swig_types[2]
-#define SWIGTYPE_p_CUmodule swig_types[3]
-#define SWIGTYPE_p_CUresult swig_types[4]
-#define SWIGTYPE_p_Cmodule swig_types[5]
-#define SWIGTYPE_p_CommandKeywordFactoryFunction swig_types[6]
-#define SWIGTYPE_p_Exception swig_types[7]
-#define SWIGTYPE_p_IOCallbackFunction swig_types[8]
-#define SWIGTYPE_p_Indices swig_types[9]
-#define SWIGTYPE_p_LOCK_TYPE swig_types[10]
-#define SWIGTYPE_p_LockException swig_types[11]
-#define SWIGTYPE_p_char swig_types[12]
-#define SWIGTYPE_p_f_p_void__p_void swig_types[13]
-#define SWIGTYPE_p_int16_t swig_types[14]
-#define SWIGTYPE_p_int32_t swig_types[15]
-#define SWIGTYPE_p_int64_t swig_types[16]
-#define SWIGTYPE_p_int8_t swig_types[17]
-#define SWIGTYPE_p_kappa__Arguments swig_types[18]
-#define SWIGTYPE_p_kappa__Array swig_types[19]
-#define SWIGTYPE_p_kappa__Attributes swig_types[20]
-#define SWIGTYPE_p_kappa__CUDA__Module swig_types[21]
-#define SWIGTYPE_p_kappa__C__Module swig_types[22]
-#define SWIGTYPE_p_kappa__Command swig_types[23]
-#define SWIGTYPE_p_kappa__CommandQueue swig_types[24]
-#define SWIGTYPE_p_kappa__Context swig_types[25]
-#define SWIGTYPE_p_kappa__Evaluator swig_types[26]
-#define SWIGTYPE_p_kappa__ExceptionHandler swig_types[27]
-#define SWIGTYPE_p_kappa__Expression swig_types[28]
-#define SWIGTYPE_p_kappa__Instruction swig_types[29]
-#define SWIGTYPE_p_kappa__KAPPA_ARGUMENTS_DIRECTION swig_types[30]
-#define SWIGTYPE_p_kappa__Kappa swig_types[31]
-#define SWIGTYPE_p_kappa__KappaConfig swig_types[32]
-#define SWIGTYPE_p_kappa__KappaConfigCUDA swig_types[33]
-#define SWIGTYPE_p_kappa__Namespace swig_types[34]
-#define SWIGTYPE_p_kappa__Process swig_types[35]
-#define SWIGTYPE_p_kappa__ProcessControlBlock swig_types[36]
-#define SWIGTYPE_p_kappa__Resource swig_types[37]
-#define SWIGTYPE_p_kappa__Result swig_types[38]
-#define SWIGTYPE_p_kappa__Stream swig_types[39]
-#define SWIGTYPE_p_kappa__Value swig_types[40]
-#define SWIGTYPE_p_kappa__Values swig_types[41]
-#define SWIGTYPE_p_kappa__Variable swig_types[42]
-#define SWIGTYPE_p_kappa__command__Keyword swig_types[43]
-#define SWIGTYPE_p_kappa__cudaGPU swig_types[44]
-#define SWIGTYPE_p_p_char swig_types[45]
-#define SWIGTYPE_p_pthread_t swig_types[46]
-#define SWIGTYPE_p_std__bad_exception swig_types[47]
-#define SWIGTYPE_p_std__exception swig_types[48]
-#define SWIGTYPE_p_std__mapT_std__string_kappa__Subroutine_p_t swig_types[49]
-#define SWIGTYPE_p_std__mapT_std__string_std__string_t swig_types[50]
-#define SWIGTYPE_p_std__vectorT_kappa__Value_p_t swig_types[51]
-#define SWIGTYPE_p_std__vectorT_std__string_t swig_types[52]
-#define SWIGTYPE_p_uint16_t swig_types[53]
-#define SWIGTYPE_p_uint32_t swig_types[54]
-#define SWIGTYPE_p_uint64_t swig_types[55]
-#define SWIGTYPE_p_uint8_t swig_types[56]
-#define SWIGTYPE_p_value__TYPE swig_types[57]
-#define SWIGTYPE_p_value__VALUE swig_types[58]
-#define SWIGTYPE_p_value__type__Bool swig_types[59]
-#define SWIGTYPE_p_value__type__Byte swig_types[60]
-#define SWIGTYPE_p_value__type__Byte2 swig_types[61]
-#define SWIGTYPE_p_value__type__Byte4 swig_types[62]
-#define SWIGTYPE_p_value__type__Byte8 swig_types[63]
-#define SWIGTYPE_p_value__type__Config_Value swig_types[64]
-#define SWIGTYPE_p_value__type__Double swig_types[65]
-#define SWIGTYPE_p_value__type__Expression swig_types[66]
-#define SWIGTYPE_p_value__type__Float swig_types[67]
-#define SWIGTYPE_p_value__type__Indices swig_types[68]
-#define SWIGTYPE_p_value__type__Namespace_Value swig_types[69]
-#define SWIGTYPE_p_value__type__SByte swig_types[70]
-#define SWIGTYPE_p_value__type__SByte2 swig_types[71]
-#define SWIGTYPE_p_value__type__SByte4 swig_types[72]
-#define SWIGTYPE_p_value__type__SByte8 swig_types[73]
-#define SWIGTYPE_p_value__type__Singlequoted_String swig_types[74]
-#define SWIGTYPE_p_value__type__String swig_types[75]
-#define SWIGTYPE_p_value__type__Unidentified_String swig_types[76]
-#define SWIGTYPE_p_value__type__Variable swig_types[77]
-#define SWIGTYPE_p_value__type__Void_Ptr swig_types[78]
-#define SWIGTYPE_p_void swig_types[79]
-static swig_type_info *swig_types[81];
-static swig_module_info swig_module = {swig_types, 80, 0, 0, 0, 0};
+#define SWIGTYPE_p_CUDA_MEMCPY2D swig_types[1]
+#define SWIGTYPE_p_CUDA_MEMCPY3D swig_types[2]
+#define SWIGTYPE_p_CUaddress_mode swig_types[3]
+#define SWIGTYPE_p_CUarray swig_types[4]
+#define SWIGTYPE_p_CUarray_format swig_types[5]
+#define SWIGTYPE_p_CUcontext swig_types[6]
+#define SWIGTYPE_p_CUdeviceptr swig_types[7]
+#define SWIGTYPE_p_CUfilter_mode swig_types[8]
+#define SWIGTYPE_p_CUmodule swig_types[9]
+#define SWIGTYPE_p_CUresult swig_types[10]
+#define SWIGTYPE_p_CUstream swig_types[11]
+#define SWIGTYPE_p_CUtexref swig_types[12]
+#define SWIGTYPE_p_Cmodule swig_types[13]
+#define SWIGTYPE_p_CommandKeywordFactoryFunction swig_types[14]
+#define SWIGTYPE_p_Exception swig_types[15]
+#define SWIGTYPE_p_IOCallbackFunction swig_types[16]
+#define SWIGTYPE_p_Indices swig_types[17]
+#define SWIGTYPE_p_LOCK_TYPE swig_types[18]
+#define SWIGTYPE_p_LockException swig_types[19]
+#define SWIGTYPE_p_char swig_types[20]
+#define SWIGTYPE_p_double swig_types[21]
+#define SWIGTYPE_p_doubleArray swig_types[22]
+#define SWIGTYPE_p_f_p_void__p_void swig_types[23]
+#define SWIGTYPE_p_float swig_types[24]
+#define SWIGTYPE_p_floatArray swig_types[25]
+#define SWIGTYPE_p_int swig_types[26]
+#define SWIGTYPE_p_int16_t swig_types[27]
+#define SWIGTYPE_p_int32_t swig_types[28]
+#define SWIGTYPE_p_int64_t swig_types[29]
+#define SWIGTYPE_p_int8_t swig_types[30]
+#define SWIGTYPE_p_intArray swig_types[31]
+#define SWIGTYPE_p_kappa__Arguments swig_types[32]
+#define SWIGTYPE_p_kappa__Array swig_types[33]
+#define SWIGTYPE_p_kappa__Attributes swig_types[34]
+#define SWIGTYPE_p_kappa__CUDA__Module swig_types[35]
+#define SWIGTYPE_p_kappa__C__Module swig_types[36]
+#define SWIGTYPE_p_kappa__Command swig_types[37]
+#define SWIGTYPE_p_kappa__CommandQueue swig_types[38]
+#define SWIGTYPE_p_kappa__Context swig_types[39]
+#define SWIGTYPE_p_kappa__Evaluator swig_types[40]
+#define SWIGTYPE_p_kappa__ExceptionHandler swig_types[41]
+#define SWIGTYPE_p_kappa__Expression swig_types[42]
+#define SWIGTYPE_p_kappa__Instruction swig_types[43]
+#define SWIGTYPE_p_kappa__KAPPA_ARGUMENTS_DIRECTION swig_types[44]
+#define SWIGTYPE_p_kappa__Kappa swig_types[45]
+#define SWIGTYPE_p_kappa__KappaConfig swig_types[46]
+#define SWIGTYPE_p_kappa__KappaConfigCUDA swig_types[47]
+#define SWIGTYPE_p_kappa__Namespace swig_types[48]
+#define SWIGTYPE_p_kappa__Process swig_types[49]
+#define SWIGTYPE_p_kappa__ProcessControlBlock swig_types[50]
+#define SWIGTYPE_p_kappa__Recipient swig_types[51]
+#define SWIGTYPE_p_kappa__Resource swig_types[52]
+#define SWIGTYPE_p_kappa__Result swig_types[53]
+#define SWIGTYPE_p_kappa__Stream swig_types[54]
+#define SWIGTYPE_p_kappa__Value swig_types[55]
+#define SWIGTYPE_p_kappa__Values swig_types[56]
+#define SWIGTYPE_p_kappa__Variable swig_types[57]
+#define SWIGTYPE_p_kappa__command__CommandStatus swig_types[58]
+#define SWIGTYPE_p_kappa__command__Keyword swig_types[59]
+#define SWIGTYPE_p_kappa__cudaGPU swig_types[60]
+#define SWIGTYPE_p_kappa__variable__Authority swig_types[61]
+#define SWIGTYPE_p_p_char swig_types[62]
+#define SWIGTYPE_p_pthread_t swig_types[63]
+#define SWIGTYPE_p_std__bad_exception swig_types[64]
+#define SWIGTYPE_p_std__exception swig_types[65]
+#define SWIGTYPE_p_std__mapT_std__string_kappa__Subroutine_p_t swig_types[66]
+#define SWIGTYPE_p_std__mapT_std__string_std__string_t swig_types[67]
+#define SWIGTYPE_p_std__vectorT_kappa__Value_p_t swig_types[68]
+#define SWIGTYPE_p_std__vectorT_std__string_t swig_types[69]
+#define SWIGTYPE_p_uint16_t swig_types[70]
+#define SWIGTYPE_p_uint32_t swig_types[71]
+#define SWIGTYPE_p_uint64_t swig_types[72]
+#define SWIGTYPE_p_uint8_t swig_types[73]
+#define SWIGTYPE_p_unsignedArray swig_types[74]
+#define SWIGTYPE_p_unsigned_int swig_types[75]
+#define SWIGTYPE_p_value__TYPE swig_types[76]
+#define SWIGTYPE_p_value__VALUE swig_types[77]
+#define SWIGTYPE_p_value__type__Bool swig_types[78]
+#define SWIGTYPE_p_value__type__Byte swig_types[79]
+#define SWIGTYPE_p_value__type__Byte2 swig_types[80]
+#define SWIGTYPE_p_value__type__Byte4 swig_types[81]
+#define SWIGTYPE_p_value__type__Byte8 swig_types[82]
+#define SWIGTYPE_p_value__type__Config_Value swig_types[83]
+#define SWIGTYPE_p_value__type__Double swig_types[84]
+#define SWIGTYPE_p_value__type__Expression swig_types[85]
+#define SWIGTYPE_p_value__type__Float swig_types[86]
+#define SWIGTYPE_p_value__type__Indices swig_types[87]
+#define SWIGTYPE_p_value__type__Namespace_Value swig_types[88]
+#define SWIGTYPE_p_value__type__SByte swig_types[89]
+#define SWIGTYPE_p_value__type__SByte2 swig_types[90]
+#define SWIGTYPE_p_value__type__SByte4 swig_types[91]
+#define SWIGTYPE_p_value__type__SByte8 swig_types[92]
+#define SWIGTYPE_p_value__type__Singlequoted_String swig_types[93]
+#define SWIGTYPE_p_value__type__String swig_types[94]
+#define SWIGTYPE_p_value__type__Unidentified_String swig_types[95]
+#define SWIGTYPE_p_value__type__Variable swig_types[96]
+#define SWIGTYPE_p_value__type__Void_Ptr swig_types[97]
+#define SWIGTYPE_p_void swig_types[98]
+static swig_type_info *swig_types[100];
+static swig_module_info swig_module = {swig_types, 99, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -1615,73 +1634,7 @@ SWIGEXPORT void SWIG_init (CV *cv, CPerlObj *);
 #include <string>
 
 
-// Undefine Perl's NORMAL--it just causes problems
-#undef NORMAL
-#include "Kappa.h"
-#include "KappaConfig.h"
-#include "kappa/ArgumentsDirection.h"
-#include "kappa/ExceptionHandler.h"
-#include "kappa/Process.h"
-#include "kappa/Result.h"
-#include "kappa/Namespace.h"
-#include "kappa/Values.h"
-#include "kappa/Value.h"
-#include "kappa/Resource.h"
-#include "kappa/Instruction.h"
-#include "kappa/Attributes.h"
-#include "kappa/Arguments.h"
-#include "kappa/ProcessControlBlock.h"
-// Undefine Perl's Copy and New macros--they just causes problems
-#undef Copy
-#undef New
-#include "kappa/Context.h"
-using namespace kappa;
-
-
-SWIGINTERNINLINE SV *
-SWIG_From_long  SWIG_PERL_DECL_ARGS_1(long value)
-{    
-  SV *obj = sv_newmortal();
-  sv_setiv(obj, (IV) value);
-  return obj;
-}
-
-
-SWIGINTERNINLINE SV *
-SWIG_From_int  SWIG_PERL_DECL_ARGS_1(int value)
-{    
-  return SWIG_From_long  SWIG_PERL_CALL_ARGS_1(value);
-}
-
-
-SWIGINTERNINLINE SV *
-SWIG_FromCharPtrAndSize(const char* carray, size_t size)
-{
-  SV *obj = sv_newmortal();
-  if (carray) {
-    sv_setpvn(obj, carray, size);
-  } else {
-    sv_setsv(obj, &PL_sv_undef);
-  }
-  return obj;
-}
-
-
-SWIGINTERNINLINE SV * 
-SWIG_FromCharPtr(const char *cptr)
-{ 
-  return SWIG_FromCharPtrAndSize(cptr, (cptr ? strlen(cptr) : 0));
-}
-
-
-#include <limits.h>
-#if !defined(SWIG_NO_LLONG_MAX)
-# if !defined(LLONG_MAX) && defined(__GNUC__) && defined (__LONG_LONG_MAX__)
-#   define LLONG_MAX __LONG_LONG_MAX__
-#   define LLONG_MIN (-LLONG_MAX - 1LL)
-#   define ULLONG_MAX (LLONG_MAX * 2ULL + 1ULL)
-# endif
-#endif
+typedef int intArray;
 
 
 SWIGINTERN int
@@ -1750,6 +1703,96 @@ SWIG_CanCastAsInteger(double *d, double min, double max) {
 
 
 SWIGINTERN int
+SWIG_AsVal_unsigned_SS_long SWIG_PERL_DECL_ARGS_2(SV *obj, unsigned long *val) 
+{
+  if (SvUOK(obj)) {
+    if (val) *val = SvUV(obj);
+    return SWIG_OK;
+  } else  if (SvIOK(obj)) {
+    long v = SvIV(obj);
+    if (v >= 0) {
+      if (val) *val = v;
+      return SWIG_OK;
+    } else {
+      return SWIG_OverflowError;
+    }
+  } else {
+    int dispatch = 0;
+    const char *nptr = SvPV_nolen(obj);
+    if (nptr) {
+      char *endptr;
+      unsigned long v;
+      errno = 0;
+      v = strtoul(nptr, &endptr,0);
+      if (errno == ERANGE) {
+	errno = 0;
+	return SWIG_OverflowError;
+      } else {
+	if (*endptr == '\0') {
+	  if (val) *val = v;
+	  return SWIG_Str2NumCast(SWIG_OK);
+	}
+      }
+    }
+    if (!dispatch) {
+      double d;
+      int res = SWIG_AddCast(SWIG_AsVal_double SWIG_PERL_CALL_ARGS_2(obj,&d));
+      if (SWIG_IsOK(res) && SWIG_CanCastAsInteger(&d, 0, ULONG_MAX)) {
+	if (val) *val = (unsigned long)(d);
+	return res;
+      }
+    }
+  }
+  return SWIG_TypeError;
+}
+
+
+SWIGINTERNINLINE int
+SWIG_AsVal_size_t SWIG_PERL_DECL_ARGS_2(SV * obj, size_t *val)
+{
+  unsigned long v;
+  int res = SWIG_AsVal_unsigned_SS_long SWIG_PERL_CALL_ARGS_2(obj, val ? &v : 0);
+  if (SWIG_IsOK(res) && val) *val = static_cast< size_t >(v);
+  return res;
+}
+
+SWIGINTERN intArray *new_intArray(size_t nelements){
+    return (new int[nelements]);
+  }
+SWIGINTERN void delete_intArray(intArray *self){
+    delete[] self;
+  }
+SWIGINTERN int intArray_getitem(intArray *self,size_t index){
+    return self[index];
+  }
+
+SWIGINTERNINLINE SV *
+SWIG_From_long  SWIG_PERL_DECL_ARGS_1(long value)
+{    
+  SV *obj = sv_newmortal();
+  sv_setiv(obj, (IV) value);
+  return obj;
+}
+
+
+SWIGINTERNINLINE SV *
+SWIG_From_int  SWIG_PERL_DECL_ARGS_1(int value)
+{    
+  return SWIG_From_long  SWIG_PERL_CALL_ARGS_1(value);
+}
+
+
+#include <limits.h>
+#if !defined(SWIG_NO_LLONG_MAX)
+# if !defined(LLONG_MAX) && defined(__GNUC__) && defined (__LONG_LONG_MAX__)
+#   define LLONG_MAX __LONG_LONG_MAX__
+#   define LLONG_MIN (-LLONG_MAX - 1LL)
+#   define ULLONG_MAX (LLONG_MAX * 2ULL + 1ULL)
+# endif
+#endif
+
+
+SWIGINTERN int
 SWIG_AsVal_long SWIG_PERL_DECL_ARGS_2(SV *obj, long* val)
 {
   if (SvIOK(obj)) {
@@ -1801,49 +1844,41 @@ SWIG_AsVal_int SWIG_PERL_DECL_ARGS_2(SV * obj, int *val)
   return res;
 }
 
-
-SWIGINTERN int
-SWIG_AsVal_unsigned_SS_long SWIG_PERL_DECL_ARGS_2(SV *obj, unsigned long *val) 
-{
-  if (SvUOK(obj)) {
-    if (val) *val = SvUV(obj);
-    return SWIG_OK;
-  } else  if (SvIOK(obj)) {
-    long v = SvIV(obj);
-    if (v >= 0) {
-      if (val) *val = v;
-      return SWIG_OK;
-    } else {
-      return SWIG_OverflowError;
-    }
-  } else {
-    int dispatch = 0;
-    const char *nptr = SvPV_nolen(obj);
-    if (nptr) {
-      char *endptr;
-      unsigned long v;
-      errno = 0;
-      v = strtoul(nptr, &endptr,0);
-      if (errno == ERANGE) {
-	errno = 0;
-	return SWIG_OverflowError;
-      } else {
-	if (*endptr == '\0') {
-	  if (val) *val = v;
-	  return SWIG_Str2NumCast(SWIG_OK);
-	}
-      }
-    }
-    if (!dispatch) {
-      double d;
-      int res = SWIG_AddCast(SWIG_AsVal_double SWIG_PERL_CALL_ARGS_2(obj,&d));
-      if (SWIG_IsOK(res) && SWIG_CanCastAsInteger(&d, 0, ULONG_MAX)) {
-	if (val) *val = (unsigned long)(d);
-	return res;
-      }
-    }
+SWIGINTERN void intArray_setitem(intArray *self,size_t index,int value){
+    self[index] = value;
   }
-  return SWIG_TypeError;
+SWIGINTERN int *intArray_cast(intArray *self){
+    return self;
+  }
+SWIGINTERN intArray *intArray_frompointer(int *t){
+    return static_cast< intArray * >(t);
+  }
+
+typedef unsigned unsignedArray;
+
+SWIGINTERN unsignedArray *new_unsignedArray(size_t nelements){
+    return (new unsigned[nelements]);
+  }
+SWIGINTERN void delete_unsignedArray(unsignedArray *self){
+    delete[] self;
+  }
+SWIGINTERN unsigned int unsignedArray_getitem(unsignedArray *self,size_t index){
+    return self[index];
+  }
+
+SWIGINTERNINLINE SV *
+SWIG_From_unsigned_SS_long  SWIG_PERL_DECL_ARGS_1(unsigned long value)
+{    
+  SV *obj = sv_newmortal();
+  sv_setuv(obj, (UV) value);
+  return obj;
+}
+
+
+SWIGINTERNINLINE SV *
+SWIG_From_unsigned_SS_int  SWIG_PERL_DECL_ARGS_1(unsigned int value)
+{    
+  return SWIG_From_unsigned_SS_long  SWIG_PERL_CALL_ARGS_1(value);
 }
 
 
@@ -1860,6 +1895,142 @@ SWIG_AsVal_unsigned_SS_int SWIG_PERL_DECL_ARGS_2(SV * obj, unsigned int *val)
     }
   }  
   return res;
+}
+
+SWIGINTERN void unsignedArray_setitem(unsignedArray *self,size_t index,unsigned int value){
+    self[index] = value;
+  }
+SWIGINTERN unsigned int *unsignedArray_cast(unsignedArray *self){
+    return self;
+  }
+SWIGINTERN unsignedArray *unsignedArray_frompointer(unsigned int *t){
+    return static_cast< unsignedArray * >(t);
+  }
+
+typedef float floatArray;
+
+SWIGINTERN floatArray *new_floatArray(size_t nelements){
+    return (new float[nelements]);
+  }
+SWIGINTERN void delete_floatArray(floatArray *self){
+    delete[] self;
+  }
+SWIGINTERN float floatArray_getitem(floatArray *self,size_t index){
+    return self[index];
+  }
+
+SWIGINTERNINLINE SV *
+SWIG_From_double  SWIG_PERL_DECL_ARGS_1(double value)
+{    
+  SV *obj = sv_newmortal();
+  sv_setnv(obj, value);
+  return obj;
+}
+
+
+SWIGINTERNINLINE SV *
+SWIG_From_float  SWIG_PERL_DECL_ARGS_1(float value)
+{    
+  return SWIG_From_double  SWIG_PERL_CALL_ARGS_1(value);
+}
+
+
+SWIGINTERN int
+SWIG_AsVal_float SWIG_PERL_DECL_ARGS_2(SV * obj, float *val)
+{
+  double v;
+  int res = SWIG_AsVal_double SWIG_PERL_CALL_ARGS_2(obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v < -FLT_MAX || v > FLT_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = static_cast< float >(v);
+    }
+  }  
+  return res;
+}
+
+SWIGINTERN void floatArray_setitem(floatArray *self,size_t index,float value){
+    self[index] = value;
+  }
+SWIGINTERN float *floatArray_cast(floatArray *self){
+    return self;
+  }
+SWIGINTERN floatArray *floatArray_frompointer(float *t){
+    return static_cast< floatArray * >(t);
+  }
+
+typedef double doubleArray;
+
+SWIGINTERN doubleArray *new_doubleArray(size_t nelements){
+    return (new double[nelements]);
+  }
+SWIGINTERN void delete_doubleArray(doubleArray *self){
+    delete[] self;
+  }
+SWIGINTERN double doubleArray_getitem(doubleArray *self,size_t index){
+    return self[index];
+  }
+SWIGINTERN void doubleArray_setitem(doubleArray *self,size_t index,double value){
+    self[index] = value;
+  }
+SWIGINTERN double *doubleArray_cast(doubleArray *self){
+    return self;
+  }
+SWIGINTERN doubleArray *doubleArray_frompointer(double *t){
+    return static_cast< doubleArray * >(t);
+  }
+
+// Undefine Perl's NORMAL--it just causes problems
+#undef NORMAL
+#include "Kappa.h"
+#include "KappaConfig.h"
+#include "kappa/ArgumentsDirection.h"
+#include "kappa/ExceptionHandler.h"
+#include "kappa/Process.h"
+#include "kappa/Result.h"
+#include "kappa/Namespace.h"
+#include "kappa/Values.h"
+#include "kappa/Value.h"
+#include "kappa/Resource.h"
+#include "kappa/Instruction.h"
+#include "kappa/Attributes.h"
+#include "kappa/Arguments.h"
+#include "kappa/ProcessControlBlock.h"
+// Undefine Perl's Copy and New macros--they just causes problems
+#undef Copy
+#undef New
+#undef IsSet
+#include "kappa/Context.h"
+#include "kappa/Command.h"
+#include "kappa/Variable.h"
+#include "kappa/Array.h"
+
+KAPPA_DLL_EXPORT int *intptr_fromvoidptr(void *voidptr);
+KAPPA_DLL_EXPORT unsigned *unsignedptr_fromvoidptr(void *voidptr);
+KAPPA_DLL_EXPORT float *floatptr_fromvoidptr(void *voidptr);
+KAPPA_DLL_EXPORT double *doubleptr_fromvoidptr(void *voidptr);
+
+using namespace kappa;
+
+
+SWIGINTERNINLINE SV *
+SWIG_FromCharPtrAndSize(const char* carray, size_t size)
+{
+  SV *obj = sv_newmortal();
+  if (carray) {
+    sv_setpvn(obj, carray, size);
+  } else {
+    sv_setsv(obj, &PL_sv_undef);
+  }
+  return obj;
+}
+
+
+SWIGINTERNINLINE SV * 
+SWIG_FromCharPtr(const char *cptr)
+{ 
+  return SWIG_FromCharPtrAndSize(cptr, (cptr ? strlen(cptr) : 0));
 }
 
 
@@ -1949,22 +2120,6 @@ SWIG_AsVal_bool SWIG_PERL_DECL_ARGS_2(SV *obj, bool* val)
 }
 
 
-SWIGINTERNINLINE SV *
-SWIG_From_unsigned_SS_long  SWIG_PERL_DECL_ARGS_1(unsigned long value)
-{    
-  SV *obj = sv_newmortal();
-  sv_setuv(obj, (UV) value);
-  return obj;
-}
-
-
-SWIGINTERNINLINE SV *
-SWIG_From_unsigned_SS_int  SWIG_PERL_DECL_ARGS_1(unsigned int value)
-{    
-  return SWIG_From_unsigned_SS_long  SWIG_PERL_CALL_ARGS_1(value);
-}
-
-
 SWIGINTERN int
 SWIG_AsPtr_std_string SWIG_PERL_DECL_ARGS_2(SV * obj, std::string **val) 
 {
@@ -2008,34 +2163,51 @@ SWIG_From_std_string  SWIG_PERL_DECL_ARGS_1(const std::string& s)
 
 
 SWIGINTERN int
-SWIG_AsVal_float SWIG_PERL_DECL_ARGS_2(SV * obj, float *val)
+SWIG_AsVal_unsigned_SS_char SWIG_PERL_DECL_ARGS_2(SV * obj, unsigned char *val)
 {
-  double v;
-  int res = SWIG_AsVal_double SWIG_PERL_CALL_ARGS_2(obj, &v);
+  unsigned long v;
+  int res = SWIG_AsVal_unsigned_SS_long SWIG_PERL_CALL_ARGS_2(obj, &v);
   if (SWIG_IsOK(res)) {
-    if ((v < -FLT_MAX || v > FLT_MAX)) {
+    if ((v > UCHAR_MAX)) {
       return SWIG_OverflowError;
     } else {
-      if (val) *val = static_cast< float >(v);
+      if (val) *val = static_cast< unsigned char >(v);
     }
   }  
   return res;
 }
 
 
-SWIGINTERNINLINE SV *
-SWIG_From_double  SWIG_PERL_DECL_ARGS_1(double value)
-{    
-  SV *obj = sv_newmortal();
-  sv_setnv(obj, value);
-  return obj;
+SWIGINTERN int
+SWIG_AsVal_unsigned_SS_short SWIG_PERL_DECL_ARGS_2(SV * obj, unsigned short *val)
+{
+  unsigned long v;
+  int res = SWIG_AsVal_unsigned_SS_long SWIG_PERL_CALL_ARGS_2(obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v > USHRT_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = static_cast< unsigned short >(v);
+    }
+  }  
+  return res;
 }
 
 
-SWIGINTERNINLINE SV *
-SWIG_From_float  SWIG_PERL_DECL_ARGS_1(float value)
-{    
-  return SWIG_From_double  SWIG_PERL_CALL_ARGS_1(value);
+KAPPA_DLL_EXPORT int *intptr_fromvoidptr(void *voidptr) {
+    return (int *)voidptr;
+}
+
+KAPPA_DLL_EXPORT unsigned *unsignedptr_fromvoidptr(void *voidptr) {
+    return (unsigned *)voidptr;
+}
+
+KAPPA_DLL_EXPORT float *floatptr_fromvoidptr(void *voidptr) {
+    return (float *)voidptr;
+}
+
+KAPPA_DLL_EXPORT double *doubleptr_fromvoidptr(void *voidptr) {
+    return (double *)voidptr;
 }
 
 #ifdef __cplusplus
@@ -2067,6 +2239,790 @@ SWIGCLASS_STATIC int swig_magic_readonly(pTHX_ SV *SWIGUNUSEDPARM(sv), MAGIC *SW
 #ifdef __cplusplus
 extern "C" {
 #endif
+XS(_wrap_new_intArray) {
+  {
+    size_t arg1 ;
+    size_t val1 ;
+    int ecode1 = 0 ;
+    int argvi = 0;
+    intArray *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: new_intArray(nelements);");
+    }
+    ecode1 = SWIG_AsVal_size_t SWIG_PERL_CALL_ARGS_2(ST(0), &val1);
+    if (!SWIG_IsOK(ecode1)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_intArray" "', argument " "1"" of type '" "size_t""'");
+    } 
+    arg1 = static_cast< size_t >(val1);
+    result = (intArray *)new_intArray(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_intArray, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_delete_intArray) {
+  {
+    intArray *arg1 = (intArray *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: delete_intArray(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_intArray, SWIG_POINTER_DISOWN |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_intArray" "', argument " "1"" of type '" "intArray *""'"); 
+    }
+    arg1 = reinterpret_cast< intArray * >(argp1);
+    delete_intArray(arg1);
+    ST(argvi) = sv_newmortal();
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_intArray_getitem) {
+  {
+    intArray *arg1 = (intArray *) 0 ;
+    size_t arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    size_t val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    int result;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: intArray_getitem(self,index);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_intArray, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "intArray_getitem" "', argument " "1"" of type '" "intArray *""'"); 
+    }
+    arg1 = reinterpret_cast< intArray * >(argp1);
+    ecode2 = SWIG_AsVal_size_t SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "intArray_getitem" "', argument " "2"" of type '" "size_t""'");
+    } 
+    arg2 = static_cast< size_t >(val2);
+    result = (int)intArray_getitem(arg1,arg2);
+    ST(argvi) = SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(result)); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_intArray_setitem) {
+  {
+    intArray *arg1 = (intArray *) 0 ;
+    size_t arg2 ;
+    int arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    size_t val2 ;
+    int ecode2 = 0 ;
+    int val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: intArray_setitem(self,index,value);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_intArray, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "intArray_setitem" "', argument " "1"" of type '" "intArray *""'"); 
+    }
+    arg1 = reinterpret_cast< intArray * >(argp1);
+    ecode2 = SWIG_AsVal_size_t SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "intArray_setitem" "', argument " "2"" of type '" "size_t""'");
+    } 
+    arg2 = static_cast< size_t >(val2);
+    ecode3 = SWIG_AsVal_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "intArray_setitem" "', argument " "3"" of type '" "int""'");
+    } 
+    arg3 = static_cast< int >(val3);
+    intArray_setitem(arg1,arg2,arg3);
+    ST(argvi) = sv_newmortal();
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_intArray_cast) {
+  {
+    intArray *arg1 = (intArray *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    int *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: intArray_cast(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_intArray, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "intArray_cast" "', argument " "1"" of type '" "intArray *""'"); 
+    }
+    arg1 = reinterpret_cast< intArray * >(argp1);
+    result = (int *)intArray_cast(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_int, 0 | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_intArray_frompointer) {
+  {
+    int *arg1 = (int *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    intArray *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: intArray_frompointer(t);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_int, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "intArray_frompointer" "', argument " "1"" of type '" "int *""'"); 
+    }
+    arg1 = reinterpret_cast< int * >(argp1);
+    result = (intArray *)intArray_frompointer(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_intArray, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_new_unsignedArray) {
+  {
+    size_t arg1 ;
+    size_t val1 ;
+    int ecode1 = 0 ;
+    int argvi = 0;
+    unsignedArray *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: new_unsignedArray(nelements);");
+    }
+    ecode1 = SWIG_AsVal_size_t SWIG_PERL_CALL_ARGS_2(ST(0), &val1);
+    if (!SWIG_IsOK(ecode1)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_unsignedArray" "', argument " "1"" of type '" "size_t""'");
+    } 
+    arg1 = static_cast< size_t >(val1);
+    result = (unsignedArray *)new_unsignedArray(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsignedArray, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_delete_unsignedArray) {
+  {
+    unsignedArray *arg1 = (unsignedArray *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: delete_unsignedArray(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_unsignedArray, SWIG_POINTER_DISOWN |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_unsignedArray" "', argument " "1"" of type '" "unsignedArray *""'"); 
+    }
+    arg1 = reinterpret_cast< unsignedArray * >(argp1);
+    delete_unsignedArray(arg1);
+    ST(argvi) = sv_newmortal();
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_unsignedArray_getitem) {
+  {
+    unsignedArray *arg1 = (unsignedArray *) 0 ;
+    size_t arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    size_t val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    unsigned int result;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: unsignedArray_getitem(self,index);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_unsignedArray, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "unsignedArray_getitem" "', argument " "1"" of type '" "unsignedArray *""'"); 
+    }
+    arg1 = reinterpret_cast< unsignedArray * >(argp1);
+    ecode2 = SWIG_AsVal_size_t SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "unsignedArray_getitem" "', argument " "2"" of type '" "size_t""'");
+    } 
+    arg2 = static_cast< size_t >(val2);
+    result = (unsigned int)unsignedArray_getitem(arg1,arg2);
+    ST(argvi) = SWIG_From_unsigned_SS_int  SWIG_PERL_CALL_ARGS_1(static_cast< unsigned int >(result)); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_unsignedArray_setitem) {
+  {
+    unsignedArray *arg1 = (unsignedArray *) 0 ;
+    size_t arg2 ;
+    unsigned int arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    size_t val2 ;
+    int ecode2 = 0 ;
+    unsigned int val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: unsignedArray_setitem(self,index,value);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_unsignedArray, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "unsignedArray_setitem" "', argument " "1"" of type '" "unsignedArray *""'"); 
+    }
+    arg1 = reinterpret_cast< unsignedArray * >(argp1);
+    ecode2 = SWIG_AsVal_size_t SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "unsignedArray_setitem" "', argument " "2"" of type '" "size_t""'");
+    } 
+    arg2 = static_cast< size_t >(val2);
+    ecode3 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "unsignedArray_setitem" "', argument " "3"" of type '" "unsigned int""'");
+    } 
+    arg3 = static_cast< unsigned int >(val3);
+    unsignedArray_setitem(arg1,arg2,arg3);
+    ST(argvi) = sv_newmortal();
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_unsignedArray_cast) {
+  {
+    unsignedArray *arg1 = (unsignedArray *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    unsigned int *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: unsignedArray_cast(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_unsignedArray, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "unsignedArray_cast" "', argument " "1"" of type '" "unsignedArray *""'"); 
+    }
+    arg1 = reinterpret_cast< unsignedArray * >(argp1);
+    result = (unsigned int *)unsignedArray_cast(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsigned_int, 0 | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_unsignedArray_frompointer) {
+  {
+    unsigned int *arg1 = (unsigned int *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    unsignedArray *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: unsignedArray_frompointer(t);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_unsigned_int, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "unsignedArray_frompointer" "', argument " "1"" of type '" "unsigned int *""'"); 
+    }
+    arg1 = reinterpret_cast< unsigned int * >(argp1);
+    result = (unsignedArray *)unsignedArray_frompointer(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsignedArray, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_new_floatArray) {
+  {
+    size_t arg1 ;
+    size_t val1 ;
+    int ecode1 = 0 ;
+    int argvi = 0;
+    floatArray *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: new_floatArray(nelements);");
+    }
+    ecode1 = SWIG_AsVal_size_t SWIG_PERL_CALL_ARGS_2(ST(0), &val1);
+    if (!SWIG_IsOK(ecode1)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_floatArray" "', argument " "1"" of type '" "size_t""'");
+    } 
+    arg1 = static_cast< size_t >(val1);
+    result = (floatArray *)new_floatArray(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_floatArray, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_delete_floatArray) {
+  {
+    floatArray *arg1 = (floatArray *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: delete_floatArray(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_floatArray, SWIG_POINTER_DISOWN |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_floatArray" "', argument " "1"" of type '" "floatArray *""'"); 
+    }
+    arg1 = reinterpret_cast< floatArray * >(argp1);
+    delete_floatArray(arg1);
+    ST(argvi) = sv_newmortal();
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_floatArray_getitem) {
+  {
+    floatArray *arg1 = (floatArray *) 0 ;
+    size_t arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    size_t val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    float result;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: floatArray_getitem(self,index);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_floatArray, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "floatArray_getitem" "', argument " "1"" of type '" "floatArray *""'"); 
+    }
+    arg1 = reinterpret_cast< floatArray * >(argp1);
+    ecode2 = SWIG_AsVal_size_t SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "floatArray_getitem" "', argument " "2"" of type '" "size_t""'");
+    } 
+    arg2 = static_cast< size_t >(val2);
+    result = (float)floatArray_getitem(arg1,arg2);
+    ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1(static_cast< float >(result)); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_floatArray_setitem) {
+  {
+    floatArray *arg1 = (floatArray *) 0 ;
+    size_t arg2 ;
+    float arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    size_t val2 ;
+    int ecode2 = 0 ;
+    float val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: floatArray_setitem(self,index,value);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_floatArray, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "floatArray_setitem" "', argument " "1"" of type '" "floatArray *""'"); 
+    }
+    arg1 = reinterpret_cast< floatArray * >(argp1);
+    ecode2 = SWIG_AsVal_size_t SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "floatArray_setitem" "', argument " "2"" of type '" "size_t""'");
+    } 
+    arg2 = static_cast< size_t >(val2);
+    ecode3 = SWIG_AsVal_float SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "floatArray_setitem" "', argument " "3"" of type '" "float""'");
+    } 
+    arg3 = static_cast< float >(val3);
+    floatArray_setitem(arg1,arg2,arg3);
+    ST(argvi) = sv_newmortal();
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_floatArray_cast) {
+  {
+    floatArray *arg1 = (floatArray *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    float *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: floatArray_cast(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_floatArray, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "floatArray_cast" "', argument " "1"" of type '" "floatArray *""'"); 
+    }
+    arg1 = reinterpret_cast< floatArray * >(argp1);
+    result = (float *)floatArray_cast(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_float, 0 | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_floatArray_frompointer) {
+  {
+    float *arg1 = (float *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    floatArray *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: floatArray_frompointer(t);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_float, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "floatArray_frompointer" "', argument " "1"" of type '" "float *""'"); 
+    }
+    arg1 = reinterpret_cast< float * >(argp1);
+    result = (floatArray *)floatArray_frompointer(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_floatArray, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_new_doubleArray) {
+  {
+    size_t arg1 ;
+    size_t val1 ;
+    int ecode1 = 0 ;
+    int argvi = 0;
+    doubleArray *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: new_doubleArray(nelements);");
+    }
+    ecode1 = SWIG_AsVal_size_t SWIG_PERL_CALL_ARGS_2(ST(0), &val1);
+    if (!SWIG_IsOK(ecode1)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_doubleArray" "', argument " "1"" of type '" "size_t""'");
+    } 
+    arg1 = static_cast< size_t >(val1);
+    result = (doubleArray *)new_doubleArray(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_doubleArray, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_delete_doubleArray) {
+  {
+    doubleArray *arg1 = (doubleArray *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: delete_doubleArray(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_doubleArray, SWIG_POINTER_DISOWN |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_doubleArray" "', argument " "1"" of type '" "doubleArray *""'"); 
+    }
+    arg1 = reinterpret_cast< doubleArray * >(argp1);
+    delete_doubleArray(arg1);
+    ST(argvi) = sv_newmortal();
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_doubleArray_getitem) {
+  {
+    doubleArray *arg1 = (doubleArray *) 0 ;
+    size_t arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    size_t val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    double result;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: doubleArray_getitem(self,index);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_doubleArray, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "doubleArray_getitem" "', argument " "1"" of type '" "doubleArray *""'"); 
+    }
+    arg1 = reinterpret_cast< doubleArray * >(argp1);
+    ecode2 = SWIG_AsVal_size_t SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "doubleArray_getitem" "', argument " "2"" of type '" "size_t""'");
+    } 
+    arg2 = static_cast< size_t >(val2);
+    result = (double)doubleArray_getitem(arg1,arg2);
+    ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1(static_cast< double >(result)); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_doubleArray_setitem) {
+  {
+    doubleArray *arg1 = (doubleArray *) 0 ;
+    size_t arg2 ;
+    double arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    size_t val2 ;
+    int ecode2 = 0 ;
+    double val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: doubleArray_setitem(self,index,value);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_doubleArray, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "doubleArray_setitem" "', argument " "1"" of type '" "doubleArray *""'"); 
+    }
+    arg1 = reinterpret_cast< doubleArray * >(argp1);
+    ecode2 = SWIG_AsVal_size_t SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "doubleArray_setitem" "', argument " "2"" of type '" "size_t""'");
+    } 
+    arg2 = static_cast< size_t >(val2);
+    ecode3 = SWIG_AsVal_double SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "doubleArray_setitem" "', argument " "3"" of type '" "double""'");
+    } 
+    arg3 = static_cast< double >(val3);
+    doubleArray_setitem(arg1,arg2,arg3);
+    ST(argvi) = sv_newmortal();
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_doubleArray_cast) {
+  {
+    doubleArray *arg1 = (doubleArray *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    double *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: doubleArray_cast(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_doubleArray, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "doubleArray_cast" "', argument " "1"" of type '" "doubleArray *""'"); 
+    }
+    arg1 = reinterpret_cast< doubleArray * >(argp1);
+    result = (double *)doubleArray_cast(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_double, 0 | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_doubleArray_frompointer) {
+  {
+    double *arg1 = (double *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    doubleArray *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: doubleArray_frompointer(t);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_double, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "doubleArray_frompointer" "', argument " "1"" of type '" "double *""'"); 
+    }
+    arg1 = reinterpret_cast< double * >(argp1);
+    result = (doubleArray *)doubleArray_frompointer(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_doubleArray, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
 XS(_wrap_new_Kappa__SWIG_0) {
   {
     int arg1 ;
@@ -23577,7 +24533,7 @@ XS(_wrap_Context_Copy__SWIG_0) {
     }
     arg3 = reinterpret_cast< char * >(buf3);
     result = (kappa::Variable *)(arg1)->Copy((char const *)arg2,(char const *)arg3);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
@@ -23629,7 +24585,7 @@ XS(_wrap_Context_Copy__SWIG_1) {
       if (SWIG_IsNewObj(res)) delete ptr;
     }
     result = (kappa::Variable *)(arg1)->Copy(arg2,arg3);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     
     
@@ -23941,7 +24897,7 @@ XS(_wrap_Context_New__SWIG_0) {
     } 
     arg4 = static_cast< unsigned int >(val4);
     result = (kappa::Variable *)(arg1)->New((char const *)arg2,arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24012,7 +24968,7 @@ XS(_wrap_Context_NewLocalAndDevice__SWIG_0) {
     } 
     arg5 = static_cast< bool >(val5);
     result = (kappa::Variable *)(arg1)->NewLocalAndDevice((char const *)arg2,arg3,arg4,arg5);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24077,7 +25033,7 @@ XS(_wrap_Context_NewLocalAndDevice__SWIG_1) {
     } 
     arg4 = static_cast< unsigned int >(val4);
     result = (kappa::Variable *)(arg1)->NewLocalAndDevice((char const *)arg2,arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24140,7 +25096,7 @@ XS(_wrap_Context_NewLocalOnly__SWIG_0) {
     } 
     arg4 = static_cast< unsigned int >(val4);
     result = (kappa::Variable *)(arg1)->NewLocalOnly((char const *)arg2,arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24203,7 +25159,7 @@ XS(_wrap_Context_NewDevice__SWIG_0) {
     } 
     arg4 = static_cast< unsigned int >(val4);
     result = (kappa::Variable *)(arg1)->NewDevice((char const *)arg2,arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24266,7 +25222,7 @@ XS(_wrap_Context_NewDeviceOnly__SWIG_0) {
     } 
     arg4 = static_cast< unsigned int >(val4);
     result = (kappa::Variable *)(arg1)->NewDeviceOnly((char const *)arg2,arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24323,7 +25279,7 @@ XS(_wrap_Context_New__SWIG_1) {
     } 
     arg4 = static_cast< unsigned int >(val4);
     result = (kappa::Variable *)(arg1)->New((char const *)arg2,arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24390,7 +25346,7 @@ XS(_wrap_Context_NewLocalAndDevice__SWIG_2) {
     } 
     arg5 = static_cast< bool >(val5);
     result = (kappa::Variable *)(arg1)->NewLocalAndDevice((char const *)arg2,arg3,arg4,arg5);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24451,7 +25407,7 @@ XS(_wrap_Context_NewLocalAndDevice__SWIG_3) {
     } 
     arg4 = static_cast< unsigned int >(val4);
     result = (kappa::Variable *)(arg1)->NewLocalAndDevice((char const *)arg2,arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24510,7 +25466,7 @@ XS(_wrap_Context_NewLocalOnly__SWIG_1) {
     } 
     arg4 = static_cast< unsigned int >(val4);
     result = (kappa::Variable *)(arg1)->NewLocalOnly((char const *)arg2,arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24569,7 +25525,7 @@ XS(_wrap_Context_NewDevice__SWIG_1) {
     } 
     arg4 = static_cast< unsigned int >(val4);
     result = (kappa::Variable *)(arg1)->NewDevice((char const *)arg2,arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24628,7 +25584,7 @@ XS(_wrap_Context_NewDeviceOnly__SWIG_1) {
     } 
     arg4 = static_cast< unsigned int >(val4);
     result = (kappa::Variable *)(arg1)->NewDeviceOnly((char const *)arg2,arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24695,7 +25651,7 @@ XS(_wrap_Context_New__SWIG_2) {
     } 
     arg5 = static_cast< unsigned int >(val5);
     result = (kappa::Variable *)(arg1)->New((char const *)arg2,arg3,arg4,arg5);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24772,7 +25728,7 @@ XS(_wrap_Context_NewLocalAndDevice__SWIG_4) {
     } 
     arg6 = static_cast< bool >(val6);
     result = (kappa::Variable *)(arg1)->NewLocalAndDevice((char const *)arg2,arg3,arg4,arg5,arg6);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24843,7 +25799,7 @@ XS(_wrap_Context_NewLocalAndDevice__SWIG_5) {
     } 
     arg5 = static_cast< unsigned int >(val5);
     result = (kappa::Variable *)(arg1)->NewLocalAndDevice((char const *)arg2,arg3,arg4,arg5);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24912,7 +25868,7 @@ XS(_wrap_Context_NewLocalOnly__SWIG_2) {
     } 
     arg5 = static_cast< unsigned int >(val5);
     result = (kappa::Variable *)(arg1)->NewLocalOnly((char const *)arg2,arg3,arg4,arg5);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -24981,7 +25937,7 @@ XS(_wrap_Context_NewDevice__SWIG_2) {
     } 
     arg5 = static_cast< unsigned int >(val5);
     result = (kappa::Variable *)(arg1)->NewDevice((char const *)arg2,arg3,arg4,arg5);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -25050,7 +26006,7 @@ XS(_wrap_Context_NewDeviceOnly__SWIG_2) {
     } 
     arg5 = static_cast< unsigned int >(val5);
     result = (kappa::Variable *)(arg1)->NewDeviceOnly((char const *)arg2,arg3,arg4,arg5);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -25127,7 +26083,7 @@ XS(_wrap_Context_New__SWIG_3) {
     } 
     arg6 = static_cast< unsigned int >(val6);
     result = (kappa::Variable *)(arg1)->New((char const *)arg2,arg3,arg4,arg5,arg6);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -25214,7 +26170,7 @@ XS(_wrap_Context_NewLocalAndDevice__SWIG_6) {
     } 
     arg7 = static_cast< bool >(val7);
     result = (kappa::Variable *)(arg1)->NewLocalAndDevice((char const *)arg2,arg3,arg4,arg5,arg6,arg7);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -25295,7 +26251,7 @@ XS(_wrap_Context_NewLocalAndDevice__SWIG_7) {
     } 
     arg6 = static_cast< unsigned int >(val6);
     result = (kappa::Variable *)(arg1)->NewLocalAndDevice((char const *)arg2,arg3,arg4,arg5,arg6);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -25374,7 +26330,7 @@ XS(_wrap_Context_NewLocalOnly__SWIG_3) {
     } 
     arg6 = static_cast< unsigned int >(val6);
     result = (kappa::Variable *)(arg1)->NewLocalOnly((char const *)arg2,arg3,arg4,arg5,arg6);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -25453,7 +26409,7 @@ XS(_wrap_Context_NewDevice__SWIG_3) {
     } 
     arg6 = static_cast< unsigned int >(val6);
     result = (kappa::Variable *)(arg1)->NewDevice((char const *)arg2,arg3,arg4,arg5,arg6);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -25532,7 +26488,7 @@ XS(_wrap_Context_NewDeviceOnly__SWIG_3) {
     } 
     arg6 = static_cast< unsigned int >(val6);
     result = (kappa::Variable *)(arg1)->NewDeviceOnly((char const *)arg2,arg3,arg4,arg5,arg6);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -25587,7 +26543,7 @@ XS(_wrap_Context_New__SWIG_4) {
     } 
     arg3 = static_cast< unsigned int >(val3);
     result = (kappa::Variable *)(arg1)->New((char const *)arg2,arg3);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -25934,7 +26890,7 @@ XS(_wrap_Context_NewLocalAndDevice__SWIG_8) {
     } 
     arg4 = static_cast< bool >(val4);
     result = (kappa::Variable *)(arg1)->NewLocalAndDevice((char const *)arg2,arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -25985,7 +26941,7 @@ XS(_wrap_Context_NewLocalAndDevice__SWIG_9) {
     } 
     arg3 = static_cast< unsigned int >(val3);
     result = (kappa::Variable *)(arg1)->NewLocalAndDevice((char const *)arg2,arg3);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -26648,7 +27604,7 @@ XS(_wrap_Context_NewLocalOnly__SWIG_4) {
     } 
     arg3 = static_cast< unsigned int >(val3);
     result = (kappa::Variable *)(arg1)->NewLocalOnly((char const *)arg2,arg3);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -26987,7 +27943,7 @@ XS(_wrap_Context_NewDevice__SWIG_4) {
     } 
     arg3 = static_cast< unsigned int >(val3);
     result = (kappa::Variable *)(arg1)->NewDevice((char const *)arg2,arg3);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -27342,7 +28298,7 @@ XS(_wrap_Context_NewDevicePitch) {
     } 
     arg5 = static_cast< unsigned int >(val5);
     result = (kappa::Variable *)(arg1)->NewDevicePitch((char const *)arg2,arg3,arg4,arg5);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -27395,7 +28351,7 @@ XS(_wrap_Context_NewDeviceOnly__SWIG_4) {
     } 
     arg3 = static_cast< unsigned int >(val3);
     result = (kappa::Variable *)(arg1)->NewDeviceOnly((char const *)arg2,arg3);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -27754,7 +28710,7 @@ XS(_wrap_Context_ModuleVariable__SWIG_0) {
     } 
     arg5 = static_cast< unsigned int >(val5);
     result = (kappa::Variable *)(arg1)->ModuleVariable(arg2,(char const *)arg3,arg4,arg5);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
     
@@ -27819,7 +28775,7 @@ XS(_wrap_Context_ModuleVariable__SWIG_1) {
     }
     arg4 = reinterpret_cast< kappa::Variable * >(argp4);
     result = (kappa::Variable *)(arg1)->ModuleVariable(arg2,(char const *)arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
     
@@ -27874,7 +28830,7 @@ XS(_wrap_Context_ModuleVariable__SWIG_2) {
     }
     arg3 = reinterpret_cast< char * >(buf3);
     result = (kappa::Variable *)(arg1)->ModuleVariable(arg2,(char const *)arg3);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
     XSRETURN(argvi);
@@ -27927,7 +28883,7 @@ XS(_wrap_Context_ModuleTexture) {
     }
     arg3 = reinterpret_cast< char * >(buf3);
     result = (kappa::Variable *)(arg1)->ModuleTexture(arg2,(char const *)arg3);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
     XSRETURN(argvi);
@@ -27994,7 +28950,7 @@ XS(_wrap_Context_ModuleVariable__SWIG_3) {
     } 
     arg5 = static_cast< unsigned int >(val5);
     result = (kappa::Variable *)(arg1)->ModuleVariable(arg2,(char const *)arg3,arg4,arg5);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
     
@@ -28059,7 +29015,7 @@ XS(_wrap_Context_ModuleVariable__SWIG_4) {
     }
     arg4 = reinterpret_cast< kappa::Variable * >(argp4);
     result = (kappa::Variable *)(arg1)->ModuleVariable(arg2,(char const *)arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
     
@@ -28114,7 +29070,7 @@ XS(_wrap_Context_ModuleVariable__SWIG_5) {
     }
     arg3 = reinterpret_cast< char * >(buf3);
     result = (kappa::Variable *)(arg1)->ModuleVariable(arg2,(char const *)arg3);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
     XSRETURN(argvi);
@@ -28465,7 +29421,7 @@ XS(_wrap_Context_GetVariable__SWIG_0) {
     }
     arg2 = reinterpret_cast< char * >(buf2);
     result = (kappa::Variable *)(arg1)->GetVariable((char const *)arg2);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     XSRETURN(argvi);
@@ -28505,7 +29461,7 @@ XS(_wrap_Context_GetVariable__SWIG_1) {
       if (SWIG_IsNewObj(res)) delete ptr;
     }
     result = (kappa::Variable *)(arg1)->GetVariable(arg2);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
     
     
     XSRETURN(argvi);
@@ -29018,7 +29974,7 @@ XS(_wrap_Context_CreateArray__SWIG_0) {
     } 
     arg7 = static_cast< unsigned int >(val7);
     result = (kappa::Array *)(arg1)->CreateArray((char const *)arg2,arg3,arg4,arg5,arg6,arg7);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -29103,7 +30059,7 @@ XS(_wrap_Context_CreateArray__SWIG_1) {
     } 
     arg6 = static_cast< unsigned int >(val6);
     result = (kappa::Array *)(arg1)->CreateArray((char const *)arg2,arg3,arg4,arg5,arg6);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -29178,7 +30134,7 @@ XS(_wrap_Context_CreateArray__SWIG_2) {
     } 
     arg5 = static_cast< unsigned int >(val5);
     result = (kappa::Array *)(arg1)->CreateArray((char const *)arg2,arg3,arg4,arg5);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -29243,7 +30199,7 @@ XS(_wrap_Context_CreateArray__SWIG_3) {
       }
     }
     result = (kappa::Array *)(arg1)->CreateArray((char const *)arg2,arg3,arg4);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -29292,7 +30248,7 @@ XS(_wrap_Context_CreateArray__SWIG_4) {
     } 
     arg3 = static_cast< unsigned int >(val3);
     result = (kappa::Array *)(arg1)->CreateArray((char const *)arg2,arg3);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     
@@ -29730,7 +30686,7 @@ XS(_wrap_Context_GetArray__SWIG_0) {
     }
     arg2 = reinterpret_cast< char * >(buf2);
     result = (kappa::Array *)(arg1)->GetArray((char const *)arg2);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
     
     if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
     XSRETURN(argvi);
@@ -29770,7 +30726,7 @@ XS(_wrap_Context_GetArray__SWIG_1) {
       if (SWIG_IsNewObj(res)) delete ptr;
     }
     result = (kappa::Array *)(arg1)->GetArray(arg2);
-    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | 0); argvi++ ;
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
     
     
     XSRETURN(argvi);
@@ -30516,20 +31472,4898 @@ XS(_wrap_Context_MemoryUsed) {
 }
 
 
+XS(_wrap_new_Command__SWIG_0) {
+  {
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 0) || (items > 0)) {
+      SWIG_croak("Usage: new_Command();");
+    }
+    result = (kappa::Command *)new kappa::Command();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    XSRETURN(argvi);
+  fail:
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_new_Command__SWIG_1) {
+  {
+    char *arg1 = (char *) 0 ;
+    int res1 ;
+    char *buf1 = 0 ;
+    int alloc1 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: new_Command(name);");
+    }
+    res1 = SWIG_AsCharPtrAndSize(ST(0), &buf1, NULL, &alloc1);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_Command" "', argument " "1"" of type '" "char const *""'");
+    }
+    arg1 = reinterpret_cast< char * >(buf1);
+    result = (kappa::Command *)new kappa::Command((char const *)arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
+    XSRETURN(argvi);
+  fail:
+    if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_new_Command__SWIG_2) {
+  {
+    std::string arg1 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: new_Command(name);");
+    }
+    {
+      std::string *ptr = (std::string *)0;
+      int res = SWIG_AsPtr_std_string SWIG_PERL_CALL_ARGS_2(ST(0), &ptr);
+      if (!SWIG_IsOK(res) || !ptr) {
+        SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "new_Command" "', argument " "1"" of type '" "std::string""'"); 
+      }
+      arg1 = *ptr;
+      if (SWIG_IsNewObj(res)) delete ptr;
+    }
+    result = (kappa::Command *)new kappa::Command(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, SWIG_OWNER | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_new_Command) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 0) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+    if (items == 1) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        int res = SWIG_AsPtr_std_string SWIG_PERL_CALL_ARGS_2(ST(0), (std::string**)(0));
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+    if (items == 1) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        int res = SWIG_AsCharPtrAndSize(ST(0), 0, NULL, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_3;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 3;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_3:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_new_Command__SWIG_0); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_new_Command__SWIG_2); return;
+    case 3:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_new_Command__SWIG_1); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'new_Command'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_delete_Command) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: delete_Command(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, SWIG_POINTER_DISOWN |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Command" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    delete arg1;
+    ST(argvi) = sv_newmortal();
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetType) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    std::string arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Command_SetType(self,type);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetType" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    {
+      std::string *ptr = (std::string *)0;
+      int res = SWIG_AsPtr_std_string SWIG_PERL_CALL_ARGS_2(ST(1), &ptr);
+      if (!SWIG_IsOK(res) || !ptr) {
+        SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "Command_SetType" "', argument " "2"" of type '" "std::string""'"); 
+      }
+      arg2 = *ptr;
+      if (SWIG_IsNewObj(res)) delete ptr;
+    }
+    result = (kappa::Command *) &(arg1)->SetType(arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetName__SWIG_0) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    char *arg2 = (char *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int res2 ;
+    char *buf2 = 0 ;
+    int alloc2 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Command_SetName(self,name);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetName" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    res2 = SWIG_AsCharPtrAndSize(ST(1), &buf2, NULL, &alloc2);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Command_SetName" "', argument " "2"" of type '" "char const *""'");
+    }
+    arg2 = reinterpret_cast< char * >(buf2);
+    result = (kappa::Command *) &(arg1)->SetName((char const *)arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, 0 | SWIG_SHADOW); argvi++ ;
+    
+    if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+    XSRETURN(argvi);
+  fail:
+    
+    if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_GetType) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    std::string result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_GetType(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_GetType" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (arg1)->GetType();
+    ST(argvi) = SWIG_From_std_string  SWIG_PERL_CALL_ARGS_1(static_cast< std::string >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_GetName) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    std::string result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_GetName(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_GetName" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (arg1)->GetName();
+    ST(argvi) = SWIG_From_std_string  SWIG_PERL_CALL_ARGS_1(static_cast< std::string >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetTrace__SWIG_0) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    bool arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    bool val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Command_SetTrace(self,value);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetTrace" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    ecode2 = SWIG_AsVal_bool SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Command_SetTrace" "', argument " "2"" of type '" "bool""'");
+    } 
+    arg2 = static_cast< bool >(val2);
+    (arg1)->SetTrace(arg2);
+    ST(argvi) = sv_newmortal();
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetTrace__SWIG_1) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_SetTrace(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetTrace" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    (arg1)->SetTrace();
+    ST(argvi) = sv_newmortal();
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetTrace) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 1) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Command, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Command, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_bool SWIG_PERL_CALL_ARGS_2(ST(1), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Command_SetTrace__SWIG_1); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Command_SetTrace__SWIG_0); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Command_SetTrace'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Command_AnyOrder) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_AnyOrder(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_AnyOrder" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (bool)(arg1)->AnyOrder();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_IsStop) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_IsStop(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_IsStop" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (bool)(arg1)->IsStop();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_IsAsync) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_IsAsync(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_IsAsync" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (bool)(arg1)->IsAsync();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetRecipient) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    kappa::Recipient *arg2 = (kappa::Recipient *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Command_SetRecipient(self,recipient);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetRecipient" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_kappa__Recipient, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Command_SetRecipient" "', argument " "2"" of type '" "kappa::Recipient *""'"); 
+    }
+    arg2 = reinterpret_cast< kappa::Recipient * >(argp2);
+    (arg1)->SetRecipient(arg2);
+    ST(argvi) = sv_newmortal();
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_Notification) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    kappa::Command *arg2 = (kappa::Command *) 0 ;
+    std::string arg3 ;
+    std::string arg4 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 4) || (items > 4)) {
+      SWIG_croak("Usage: Command_Notification(self,command,type,n);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_Notification" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Command_Notification" "', argument " "2"" of type '" "kappa::Command *""'"); 
+    }
+    arg2 = reinterpret_cast< kappa::Command * >(argp2);
+    {
+      std::string *ptr = (std::string *)0;
+      int res = SWIG_AsPtr_std_string SWIG_PERL_CALL_ARGS_2(ST(2), &ptr);
+      if (!SWIG_IsOK(res) || !ptr) {
+        SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "Command_Notification" "', argument " "3"" of type '" "std::string""'"); 
+      }
+      arg3 = *ptr;
+      if (SWIG_IsNewObj(res)) delete ptr;
+    }
+    {
+      std::string *ptr = (std::string *)0;
+      int res = SWIG_AsPtr_std_string SWIG_PERL_CALL_ARGS_2(ST(3), &ptr);
+      if (!SWIG_IsOK(res) || !ptr) {
+        SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "Command_Notification" "', argument " "4"" of type '" "std::string""'"); 
+      }
+      arg4 = *ptr;
+      if (SWIG_IsNewObj(res)) delete ptr;
+    }
+    (arg1)->Notification(arg2,arg3,arg4);
+    ST(argvi) = sv_newmortal();
+    
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetAsync) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_SetAsync(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetAsync" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (kappa::Command *) &(arg1)->SetAsync();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_ClearAsync) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_ClearAsync(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_ClearAsync" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (kappa::Command *) &(arg1)->ClearAsync();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetReady) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_SetReady(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetReady" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (kappa::Command *) &(arg1)->SetReady();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetRunning) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_SetRunning(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetRunning" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (kappa::Command *) &(arg1)->SetRunning();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetPaused) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_SetPaused(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetPaused" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (kappa::Command *) &(arg1)->SetPaused();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetCanceled) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_SetCanceled(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetCanceled" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (kappa::Command *) &(arg1)->SetCanceled();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetFailed) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_SetFailed(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetFailed" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (kappa::Command *) &(arg1)->SetFailed();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetFinished) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_SetFinished(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetFinished" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (kappa::Command *) &(arg1)->SetFinished();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_UpdateStatus) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_UpdateStatus(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_UpdateStatus" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    (arg1)->UpdateStatus();
+    ST(argvi) = sv_newmortal();
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_IsReady) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_IsReady(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_IsReady" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (bool)(arg1)->IsReady();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_IsRunning) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_IsRunning(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_IsRunning" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (bool)(arg1)->IsRunning();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_IsPaused) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_IsPaused(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_IsPaused" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (bool)(arg1)->IsPaused();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_IsCanceled) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_IsCanceled(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_IsCanceled" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (bool)(arg1)->IsCanceled();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_IsFailed) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_IsFailed(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_IsFailed" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (bool)(arg1)->IsFailed();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_IsFinished) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_IsFinished(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_IsFinished" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (bool)(arg1)->IsFinished();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetName__SWIG_1) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    std::string arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Command_SetName(self,name);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetName" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    {
+      std::string *ptr = (std::string *)0;
+      int res = SWIG_AsPtr_std_string SWIG_PERL_CALL_ARGS_2(ST(1), &ptr);
+      if (!SWIG_IsOK(res) || !ptr) {
+        SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "Command_SetName" "', argument " "2"" of type '" "std::string""'"); 
+      }
+      arg2 = *ptr;
+      if (SWIG_IsNewObj(res)) delete ptr;
+    }
+    result = (kappa::Command *) &(arg1)->SetName(arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetName) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Command, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        int res = SWIG_AsPtr_std_string SWIG_PERL_CALL_ARGS_2(ST(1), (std::string**)(0));
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Command, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        int res = SWIG_AsCharPtrAndSize(ST(1), 0, NULL, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Command_SetName__SWIG_1); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Command_SetName__SWIG_0); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Command_SetName'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Command_Execute) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    kappa::ProcessControlBlock *arg2 = (kappa::ProcessControlBlock *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    int argvi = 0;
+    kappa::Command *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Command_Execute(self,pcb);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_Execute" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_kappa__ProcessControlBlock, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Command_Execute" "', argument " "2"" of type '" "kappa::ProcessControlBlock *""'"); 
+    }
+    arg2 = reinterpret_cast< kappa::ProcessControlBlock * >(argp2);
+    result = (kappa::Command *) &(arg1)->Execute(arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Command, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_SetStream) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    std::string arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Command_SetStream(self,name);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_SetStream" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    {
+      std::string *ptr = (std::string *)0;
+      int res = SWIG_AsPtr_std_string SWIG_PERL_CALL_ARGS_2(ST(1), &ptr);
+      if (!SWIG_IsOK(res) || !ptr) {
+        SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "Command_SetStream" "', argument " "2"" of type '" "std::string""'"); 
+      }
+      arg2 = *ptr;
+      if (SWIG_IsNewObj(res)) delete ptr;
+    }
+    (arg1)->SetStream(arg2);
+    ST(argvi) = sv_newmortal();
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_GetStream) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    std::string result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_GetStream(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_GetStream" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (arg1)->GetStream();
+    ST(argvi) = SWIG_From_std_string  SWIG_PERL_CALL_ARGS_1(static_cast< std::string >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Command_NeedStream) {
+  {
+    kappa::Command *arg1 = (kappa::Command *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Command_NeedStream(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Command, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Command_NeedStream" "', argument " "1"" of type '" "kappa::Command *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Command * >(argp1);
+    result = (bool)(arg1)->NeedStream();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_delete_Variable) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: delete_Variable(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, SWIG_POINTER_DISOWN |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Variable" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    delete arg1;
+    ST(argvi) = sv_newmortal();
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_Copy) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    kappa::Variable *arg2 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_Copy(self,var);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_Copy" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Variable_Copy" "', argument " "2"" of type '" "kappa::Variable *""'"); 
+    }
+    arg2 = reinterpret_cast< kappa::Variable * >(argp2);
+    result = (kappa::Variable *) &(arg1)->Copy(arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_Free) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_Free(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_Free" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (kappa::Variable *) &(arg1)->Free();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_SetAuthority) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    kappa::variable::Authority arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_SetAuthority(self,a);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_SetAuthority" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    ecode2 = SWIG_AsVal_int SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Variable_SetAuthority" "', argument " "2"" of type '" "kappa::variable::Authority""'");
+    } 
+    arg2 = static_cast< kappa::variable::Authority >(val2);
+    (arg1)->SetAuthority(arg2);
+    ST(argvi) = sv_newmortal();
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_ForceAuthority) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    kappa::variable::Authority arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_ForceAuthority(self,a);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_ForceAuthority" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    ecode2 = SWIG_AsVal_int SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Variable_ForceAuthority" "', argument " "2"" of type '" "kappa::variable::Authority""'");
+    } 
+    arg2 = static_cast< kappa::variable::Authority >(val2);
+    (arg1)->ForceAuthority(arg2);
+    ST(argvi) = sv_newmortal();
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_Dimensions) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    unsigned int result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_Dimensions(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_Dimensions" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (unsigned int)(arg1)->Dimensions();
+    ST(argvi) = SWIG_From_unsigned_SS_int  SWIG_PERL_CALL_ARGS_1(static_cast< unsigned int >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_DimSize) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    unsigned int arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    unsigned int val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    unsigned int result;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_DimSize(self,idim);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_DimSize" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    ecode2 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Variable_DimSize" "', argument " "2"" of type '" "unsigned int""'");
+    } 
+    arg2 = static_cast< unsigned int >(val2);
+    result = (unsigned int)(arg1)->DimSize(arg2);
+    ST(argvi) = SWIG_From_unsigned_SS_int  SWIG_PERL_CALL_ARGS_1(static_cast< unsigned int >(result)); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_Size) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    unsigned int result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_Size(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_Size" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (unsigned int)(arg1)->Size();
+    ST(argvi) = SWIG_From_unsigned_SS_int  SWIG_PERL_CALL_ARGS_1(static_cast< unsigned int >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_ElementSize) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    unsigned int result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_ElementSize(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_ElementSize" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (unsigned int)(arg1)->ElementSize();
+    ST(argvi) = SWIG_From_unsigned_SS_int  SWIG_PERL_CALL_ARGS_1(static_cast< unsigned int >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_GetName) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    char *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_GetName(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_GetName" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (char *)(arg1)->GetName();
+    ST(argvi) = SWIG_FromCharPtr((const char *)result); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_Result) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    CUresult result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_Result(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_Result" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (arg1)->Result();
+    ST(argvi) = SWIG_NewPointerObj((new CUresult(static_cast< const CUresult& >(result))), SWIGTYPE_p_CUresult, SWIG_POINTER_OWN | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_IsLocked) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_IsLocked(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_IsLocked" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (bool)(arg1)->IsLocked();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_Access__SWIG_0) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    bool arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    bool val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    void *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_Access(self,read_only);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_Access" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    ecode2 = SWIG_AsVal_bool SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Variable_Access" "', argument " "2"" of type '" "bool""'");
+    } 
+    arg2 = static_cast< bool >(val2);
+    result = (void *)(arg1)->Access(arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_void, 0 | 0); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_Access__SWIG_1) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    void *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_Access(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_Access" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (void *)(arg1)->Access();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_void, 0 | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_Access) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 1) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_bool SWIG_PERL_CALL_ARGS_2(ST(1), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_Access__SWIG_1); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_Access__SWIG_0); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Variable_Access'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Variable_DeviceAccess__SWIG_0) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    bool arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    bool val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    CUdeviceptr result;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_DeviceAccess(self,read_only);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_DeviceAccess" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    ecode2 = SWIG_AsVal_bool SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Variable_DeviceAccess" "', argument " "2"" of type '" "bool""'");
+    } 
+    arg2 = static_cast< bool >(val2);
+    result = (arg1)->DeviceAccess(arg2);
+    ST(argvi) = SWIG_NewPointerObj((new CUdeviceptr(static_cast< const CUdeviceptr& >(result))), SWIGTYPE_p_CUdeviceptr, SWIG_POINTER_OWN | 0); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_DeviceAccess__SWIG_1) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    CUdeviceptr result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_DeviceAccess(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_DeviceAccess" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (arg1)->DeviceAccess();
+    ST(argvi) = SWIG_NewPointerObj((new CUdeviceptr(static_cast< const CUdeviceptr& >(result))), SWIGTYPE_p_CUdeviceptr, SWIG_POINTER_OWN | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_DeviceAccess) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 1) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_bool SWIG_PERL_CALL_ARGS_2(ST(1), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_DeviceAccess__SWIG_1); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_DeviceAccess__SWIG_0); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Variable_DeviceAccess'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Variable_TextureAccess__SWIG_0) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    bool arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    bool val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    CUtexref result;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_TextureAccess(self,read_only);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_TextureAccess" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    ecode2 = SWIG_AsVal_bool SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Variable_TextureAccess" "', argument " "2"" of type '" "bool""'");
+    } 
+    arg2 = static_cast< bool >(val2);
+    result = (arg1)->TextureAccess(arg2);
+    ST(argvi) = SWIG_NewPointerObj((new CUtexref(static_cast< const CUtexref& >(result))), SWIGTYPE_p_CUtexref, SWIG_POINTER_OWN | 0); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_TextureAccess__SWIG_1) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    CUtexref result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_TextureAccess(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_TextureAccess" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (arg1)->TextureAccess();
+    ST(argvi) = SWIG_NewPointerObj((new CUtexref(static_cast< const CUtexref& >(result))), SWIGTYPE_p_CUtexref, SWIG_POINTER_OWN | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_TextureAccess) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 1) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_bool SWIG_PERL_CALL_ARGS_2(ST(1), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_TextureAccess__SWIG_1); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_TextureAccess__SWIG_0); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Variable_TextureAccess'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Variable_HasTexture) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_HasTexture(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_HasTexture" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (bool)(arg1)->HasTexture();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_TexUnit) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    int result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_TexUnit(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_TexUnit" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (int)(arg1)->TexUnit();
+    ST(argvi) = SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_Relinquish) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_Relinquish(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_Relinquish" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (kappa::Variable *) &(arg1)->Relinquish();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_SetAddressMode__SWIG_0) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    int arg2 ;
+    CUaddress_mode arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int val2 ;
+    int ecode2 = 0 ;
+    void *argp3 ;
+    int res3 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Variable_SetAddressMode(self,idim,amode);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_SetAddressMode" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    ecode2 = SWIG_AsVal_int SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Variable_SetAddressMode" "', argument " "2"" of type '" "int""'");
+    } 
+    arg2 = static_cast< int >(val2);
+    {
+      res3 = SWIG_ConvertPtr(ST(2), &argp3, SWIGTYPE_p_CUaddress_mode,  0 );
+      if (!SWIG_IsOK(res3)) {
+        SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "Variable_SetAddressMode" "', argument " "3"" of type '" "CUaddress_mode""'"); 
+      }  
+      if (!argp3) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Variable_SetAddressMode" "', argument " "3"" of type '" "CUaddress_mode""'");
+      } else {
+        arg3 = *(reinterpret_cast< CUaddress_mode * >(argp3));
+      }
+    }
+    result = (kappa::Variable *) &(arg1)->SetAddressMode(arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_SetAddressMode__SWIG_1) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    int arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_SetAddressMode(self,idim);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_SetAddressMode" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    ecode2 = SWIG_AsVal_int SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Variable_SetAddressMode" "', argument " "2"" of type '" "int""'");
+    } 
+    arg2 = static_cast< int >(val2);
+    result = (kappa::Variable *) &(arg1)->SetAddressMode(arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_SetAddressMode__SWIG_2) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_SetAddressMode(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_SetAddressMode" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (kappa::Variable *) &(arg1)->SetAddressMode();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_SetAddressMode) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 1) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_int SWIG_PERL_CALL_ARGS_2(ST(1), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+    if (items == 3) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_3;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_int SWIG_PERL_CALL_ARGS_2(ST(1), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_3;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(2), &vptr, SWIGTYPE_p_CUaddress_mode, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_3;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 3;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_3:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_SetAddressMode__SWIG_2); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_SetAddressMode__SWIG_1); return;
+    case 3:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_SetAddressMode__SWIG_0); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Variable_SetAddressMode'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Variable_SetFilterMode__SWIG_0) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    CUfilter_mode arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 ;
+    int res2 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_SetFilterMode(self,fmode);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_SetFilterMode" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    {
+      res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_CUfilter_mode,  0 );
+      if (!SWIG_IsOK(res2)) {
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Variable_SetFilterMode" "', argument " "2"" of type '" "CUfilter_mode""'"); 
+      }  
+      if (!argp2) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Variable_SetFilterMode" "', argument " "2"" of type '" "CUfilter_mode""'");
+      } else {
+        arg2 = *(reinterpret_cast< CUfilter_mode * >(argp2));
+      }
+    }
+    result = (kappa::Variable *) &(arg1)->SetFilterMode(arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_SetFilterMode__SWIG_1) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_SetFilterMode(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_SetFilterMode" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (kappa::Variable *) &(arg1)->SetFilterMode();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_SetFilterMode) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 1) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(1), &vptr, SWIGTYPE_p_CUfilter_mode, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_SetFilterMode__SWIG_1); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_SetFilterMode__SWIG_0); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Variable_SetFilterMode'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Variable_SetTextureFlags__SWIG_0) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    unsigned int arg2 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    unsigned int val2 ;
+    int ecode2 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_SetTextureFlags(self,flags);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_SetTextureFlags" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    ecode2 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Variable_SetTextureFlags" "', argument " "2"" of type '" "unsigned int""'");
+    } 
+    arg2 = static_cast< unsigned int >(val2);
+    result = (kappa::Variable *) &(arg1)->SetTextureFlags(arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_SetTextureFlags__SWIG_1) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_SetTextureFlags(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_SetTextureFlags" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (kappa::Variable *) &(arg1)->SetTextureFlags();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_SetTextureFlags) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 1) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(1), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_SetTextureFlags__SWIG_1); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_SetTextureFlags__SWIG_0); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Variable_SetTextureFlags'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Variable_SetStream) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    kappa::Stream *arg2 = (kappa::Stream *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_SetStream(self,stream);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_SetStream" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_kappa__Stream, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Variable_SetStream" "', argument " "2"" of type '" "kappa::Stream *""'"); 
+    }
+    arg2 = reinterpret_cast< kappa::Stream * >(argp2);
+    result = (kappa::Variable *) &(arg1)->SetStream(arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_GetStream) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Stream *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_GetStream(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_GetStream" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (kappa::Stream *)(arg1)->GetStream();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Stream, 0 | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_VariableDimensions) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    Indices result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_VariableDimensions(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_VariableDimensions" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (arg1)->VariableDimensions();
+    ST(argvi) = SWIG_NewPointerObj((new Indices(static_cast< const Indices& >(result))), SWIGTYPE_p_Indices, SWIG_POINTER_OWN | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_IsTextureWritable) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_IsTextureWritable(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_IsTextureWritable" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (bool)(arg1)->IsTextureWritable();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_FromVariable) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    kappa::Variable *arg2 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_FromVariable(self,variable);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_FromVariable" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Variable_FromVariable" "', argument " "2"" of type '" "kappa::Variable *""'"); 
+    }
+    arg2 = reinterpret_cast< kappa::Variable * >(argp2);
+    result = (kappa::Variable *) &(arg1)->FromVariable(arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_FromLocal) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *arg2 = (void *) 0 ;
+    unsigned int arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int res2 ;
+    unsigned int val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Variable_FromLocal(self,pointer,size);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_FromLocal" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1),SWIG_as_voidptrptr(&arg2), 0, 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Variable_FromLocal" "', argument " "2"" of type '" "void *""'"); 
+    }
+    ecode3 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Variable_FromLocal" "', argument " "3"" of type '" "unsigned int""'");
+    } 
+    arg3 = static_cast< unsigned int >(val3);
+    result = (kappa::Variable *) &(arg1)->FromLocal(arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_FromArray__SWIG_0) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    kappa::Array *arg2 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Variable_FromArray(self,array);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_FromArray" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Variable_FromArray" "', argument " "2"" of type '" "kappa::Array *""'"); 
+    }
+    arg2 = reinterpret_cast< kappa::Array * >(argp2);
+    result = (kappa::Variable *) &(arg1)->FromArray(arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_FromDevice) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    CUdeviceptr arg2 ;
+    unsigned int arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 ;
+    int res2 = 0 ;
+    unsigned int val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Variable_FromDevice(self,pointer,mem_size);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_FromDevice" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    {
+      res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_CUdeviceptr,  0 );
+      if (!SWIG_IsOK(res2)) {
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Variable_FromDevice" "', argument " "2"" of type '" "CUdeviceptr""'"); 
+      }  
+      if (!argp2) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Variable_FromDevice" "', argument " "2"" of type '" "CUdeviceptr""'");
+      } else {
+        arg2 = *(reinterpret_cast< CUdeviceptr * >(argp2));
+      }
+    }
+    ecode3 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Variable_FromDevice" "', argument " "3"" of type '" "unsigned int""'");
+    } 
+    arg3 = static_cast< unsigned int >(val3);
+    result = (kappa::Variable *) &(arg1)->FromDevice(arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_FromArray__SWIG_1) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    CUarray arg2 ;
+    unsigned int arg3 ;
+    unsigned int arg4 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 ;
+    int res2 = 0 ;
+    unsigned int val3 ;
+    int ecode3 = 0 ;
+    unsigned int val4 ;
+    int ecode4 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 4) || (items > 4)) {
+      SWIG_croak("Usage: Variable_FromArray(self,array,index,mem_size);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_FromArray" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    {
+      res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_CUarray,  0 );
+      if (!SWIG_IsOK(res2)) {
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Variable_FromArray" "', argument " "2"" of type '" "CUarray""'"); 
+      }  
+      if (!argp2) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Variable_FromArray" "', argument " "2"" of type '" "CUarray""'");
+      } else {
+        arg2 = *(reinterpret_cast< CUarray * >(argp2));
+      }
+    }
+    ecode3 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Variable_FromArray" "', argument " "3"" of type '" "unsigned int""'");
+    } 
+    arg3 = static_cast< unsigned int >(val3);
+    ecode4 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(3), &val4);
+    if (!SWIG_IsOK(ecode4)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "Variable_FromArray" "', argument " "4"" of type '" "unsigned int""'");
+    } 
+    arg4 = static_cast< unsigned int >(val4);
+    result = (kappa::Variable *) &(arg1)->FromArray(arg2,arg3,arg4);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_FromArray) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(1), &vptr, SWIGTYPE_p_kappa__Array, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 4) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(1), &vptr, SWIGTYPE_p_CUarray, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(3), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_FromArray__SWIG_0); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_FromArray__SWIG_1); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Variable_FromArray'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Variable_DeviceMemSet__SWIG_0) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    unsigned char arg2 ;
+    unsigned int arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    unsigned char val2 ;
+    int ecode2 = 0 ;
+    unsigned int val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Variable_DeviceMemSet(self,value,count);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_DeviceMemSet" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    ecode2 = SWIG_AsVal_unsigned_SS_char SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Variable_DeviceMemSet" "', argument " "2"" of type '" "unsigned char""'");
+    } 
+    arg2 = static_cast< unsigned char >(val2);
+    ecode3 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Variable_DeviceMemSet" "', argument " "3"" of type '" "unsigned int""'");
+    } 
+    arg3 = static_cast< unsigned int >(val3);
+    result = (kappa::Variable *) &(arg1)->DeviceMemSet(arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_DeviceMemSet__SWIG_1) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    unsigned short arg2 ;
+    unsigned int arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    unsigned short val2 ;
+    int ecode2 = 0 ;
+    unsigned int val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Variable_DeviceMemSet(self,value,count);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_DeviceMemSet" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    ecode2 = SWIG_AsVal_unsigned_SS_short SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Variable_DeviceMemSet" "', argument " "2"" of type '" "unsigned short""'");
+    } 
+    arg2 = static_cast< unsigned short >(val2);
+    ecode3 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Variable_DeviceMemSet" "', argument " "3"" of type '" "unsigned int""'");
+    } 
+    arg3 = static_cast< unsigned int >(val3);
+    result = (kappa::Variable *) &(arg1)->DeviceMemSet(arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_DeviceMemSet__SWIG_2) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    unsigned int arg2 ;
+    unsigned int arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    unsigned int val2 ;
+    int ecode2 = 0 ;
+    unsigned int val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    kappa::Variable *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Variable_DeviceMemSet(self,value,count);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_DeviceMemSet" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    ecode2 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(1), &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Variable_DeviceMemSet" "', argument " "2"" of type '" "unsigned int""'");
+    } 
+    arg2 = static_cast< unsigned int >(val2);
+    ecode3 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Variable_DeviceMemSet" "', argument " "3"" of type '" "unsigned int""'");
+    } 
+    arg3 = static_cast< unsigned int >(val3);
+    result = (kappa::Variable *) &(arg1)->DeviceMemSet(arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Variable, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Variable_DeviceMemSet) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 3) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_unsigned_SS_char SWIG_PERL_CALL_ARGS_2(ST(1), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 3) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_unsigned_SS_short SWIG_PERL_CALL_ARGS_2(ST(1), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+    if (items == 3) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Variable, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_3;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(1), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_3;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_3;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 3;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_3:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_DeviceMemSet__SWIG_0); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_DeviceMemSet__SWIG_1); return;
+    case 3:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Variable_DeviceMemSet__SWIG_2); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Variable_DeviceMemSet'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Variable_IsReady) {
+  {
+    kappa::Variable *arg1 = (kappa::Variable *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Variable_IsReady(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Variable, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Variable_IsReady" "', argument " "1"" of type '" "kappa::Variable *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Variable * >(argp1);
+    result = (bool)(arg1)->IsReady();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_delete_Array) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: delete_Array(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, SWIG_POINTER_DISOWN |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_Array" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    delete arg1;
+    ST(argvi) = sv_newmortal();
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Result) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    CUresult result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Array_Result(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Result" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    result = (arg1)->Result();
+    ST(argvi) = SWIG_NewPointerObj((new CUresult(static_cast< const CUresult& >(result))), SWIGTYPE_p_CUresult, SWIG_POINTER_OWN | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_IsSet) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Array_IsSet(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_IsSet" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    result = (bool)(arg1)->IsSet();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Is3D) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    bool result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Array_Is3D(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Is3D" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    result = (bool)(arg1)->Is3D();
+    ST(argvi) = SWIG_From_bool  SWIG_PERL_CALL_ARGS_1(static_cast< bool >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_CUArray) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    CUarray result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Array_CUArray(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_CUArray" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    result = (arg1)->CUArray();
+    ST(argvi) = SWIG_NewPointerObj((new CUarray(static_cast< const CUarray& >(result))), SWIGTYPE_p_CUarray, SWIG_POINTER_OWN | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Width) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    unsigned int result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Array_Width(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Width" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    result = (unsigned int)(arg1)->Width();
+    ST(argvi) = SWIG_From_unsigned_SS_int  SWIG_PERL_CALL_ARGS_1(static_cast< unsigned int >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Height) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    unsigned int result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Array_Height(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Height" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    result = (unsigned int)(arg1)->Height();
+    ST(argvi) = SWIG_From_unsigned_SS_int  SWIG_PERL_CALL_ARGS_1(static_cast< unsigned int >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Depth) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    unsigned int result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Array_Depth(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Depth" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    result = (unsigned int)(arg1)->Depth();
+    ST(argvi) = SWIG_From_unsigned_SS_int  SWIG_PERL_CALL_ARGS_1(static_cast< unsigned int >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Format) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    CUarray_format result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Array_Format(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Format" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    result = (arg1)->Format();
+    ST(argvi) = SWIG_NewPointerObj((new CUarray_format(static_cast< const CUarray_format& >(result))), SWIGTYPE_p_CUarray_format, SWIG_POINTER_OWN | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_NumChannels) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    unsigned int result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Array_NumChannels(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_NumChannels" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    result = (unsigned int)(arg1)->NumChannels();
+    ST(argvi) = SWIG_From_unsigned_SS_int  SWIG_PERL_CALL_ARGS_1(static_cast< unsigned int >(result)); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Malloc) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Array_Malloc(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Malloc" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    result = (kappa::Array *) &(arg1)->Malloc();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Free) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Array_Free(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Free" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    result = (kappa::Array *) &(arg1)->Free();
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Memcpy2D__SWIG_0) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    CUDA_MEMCPY2D *arg2 = (CUDA_MEMCPY2D *) 0 ;
+    bool arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    bool val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Array_Memcpy2D(self,cp,aligned);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Memcpy2D" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_CUDA_MEMCPY2D, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Array_Memcpy2D" "', argument " "2"" of type '" "CUDA_MEMCPY2D const *""'"); 
+    }
+    arg2 = reinterpret_cast< CUDA_MEMCPY2D * >(argp2);
+    ecode3 = SWIG_AsVal_bool SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Array_Memcpy2D" "', argument " "3"" of type '" "bool""'");
+    } 
+    arg3 = static_cast< bool >(val3);
+    result = (kappa::Array *) &(arg1)->Memcpy2D((CUDA_MEMCPY2D const *)arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Memcpy2D__SWIG_1) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    CUDA_MEMCPY2D *arg2 = (CUDA_MEMCPY2D *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Array_Memcpy2D(self,cp);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Memcpy2D" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_CUDA_MEMCPY2D, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Array_Memcpy2D" "', argument " "2"" of type '" "CUDA_MEMCPY2D const *""'"); 
+    }
+    arg2 = reinterpret_cast< CUDA_MEMCPY2D * >(argp2);
+    result = (kappa::Array *) &(arg1)->Memcpy2D((CUDA_MEMCPY2D const *)arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Memcpy2D) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Array, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(1), &vptr, SWIGTYPE_p_CUDA_MEMCPY2D, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 3) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Array, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(1), &vptr, SWIGTYPE_p_CUDA_MEMCPY2D, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_bool SWIG_PERL_CALL_ARGS_2(ST(2), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Array_Memcpy2D__SWIG_1); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Array_Memcpy2D__SWIG_0); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Array_Memcpy2D'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Array_Memcpy3D) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    CUDA_MEMCPY3D *arg2 = (CUDA_MEMCPY3D *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Array_Memcpy3D(self,cp);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Memcpy3D" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_CUDA_MEMCPY3D, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Array_Memcpy3D" "', argument " "2"" of type '" "CUDA_MEMCPY3D const *""'"); 
+    }
+    arg2 = reinterpret_cast< CUDA_MEMCPY3D * >(argp2);
+    result = (kappa::Array *) &(arg1)->Memcpy3D((CUDA_MEMCPY3D const *)arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Memcpy2DAsync__SWIG_0) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    CUDA_MEMCPY2D *arg2 = (CUDA_MEMCPY2D *) 0 ;
+    CUstream arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    void *argp3 ;
+    int res3 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Array_Memcpy2DAsync(self,cp,stream);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Memcpy2DAsync" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_CUDA_MEMCPY2D, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Array_Memcpy2DAsync" "', argument " "2"" of type '" "CUDA_MEMCPY2D const *""'"); 
+    }
+    arg2 = reinterpret_cast< CUDA_MEMCPY2D * >(argp2);
+    {
+      res3 = SWIG_ConvertPtr(ST(2), &argp3, SWIGTYPE_p_CUstream,  0 );
+      if (!SWIG_IsOK(res3)) {
+        SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "Array_Memcpy2DAsync" "', argument " "3"" of type '" "CUstream""'"); 
+      }  
+      if (!argp3) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Array_Memcpy2DAsync" "', argument " "3"" of type '" "CUstream""'");
+      } else {
+        arg3 = *(reinterpret_cast< CUstream * >(argp3));
+      }
+    }
+    result = (kappa::Array *) &(arg1)->Memcpy2DAsync((CUDA_MEMCPY2D const *)arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Memcpy2DAsync__SWIG_1) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    CUDA_MEMCPY2D *arg2 = (CUDA_MEMCPY2D *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Array_Memcpy2DAsync(self,cp);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Memcpy2DAsync" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_CUDA_MEMCPY2D, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Array_Memcpy2DAsync" "', argument " "2"" of type '" "CUDA_MEMCPY2D const *""'"); 
+    }
+    arg2 = reinterpret_cast< CUDA_MEMCPY2D * >(argp2);
+    result = (kappa::Array *) &(arg1)->Memcpy2DAsync((CUDA_MEMCPY2D const *)arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Memcpy2DAsync) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Array, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(1), &vptr, SWIGTYPE_p_CUDA_MEMCPY2D, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 3) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Array, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(1), &vptr, SWIGTYPE_p_CUDA_MEMCPY2D, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(2), &vptr, SWIGTYPE_p_CUstream, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Array_Memcpy2DAsync__SWIG_1); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Array_Memcpy2DAsync__SWIG_0); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Array_Memcpy2DAsync'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Array_Memcpy3DAsync__SWIG_0) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    CUDA_MEMCPY3D *arg2 = (CUDA_MEMCPY3D *) 0 ;
+    CUstream arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    void *argp3 ;
+    int res3 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Array_Memcpy3DAsync(self,cp,stream);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Memcpy3DAsync" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_CUDA_MEMCPY3D, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Array_Memcpy3DAsync" "', argument " "2"" of type '" "CUDA_MEMCPY3D const *""'"); 
+    }
+    arg2 = reinterpret_cast< CUDA_MEMCPY3D * >(argp2);
+    {
+      res3 = SWIG_ConvertPtr(ST(2), &argp3, SWIGTYPE_p_CUstream,  0 );
+      if (!SWIG_IsOK(res3)) {
+        SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "Array_Memcpy3DAsync" "', argument " "3"" of type '" "CUstream""'"); 
+      }  
+      if (!argp3) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Array_Memcpy3DAsync" "', argument " "3"" of type '" "CUstream""'");
+      } else {
+        arg3 = *(reinterpret_cast< CUstream * >(argp3));
+      }
+    }
+    result = (kappa::Array *) &(arg1)->Memcpy3DAsync((CUDA_MEMCPY3D const *)arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Memcpy3DAsync__SWIG_1) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    CUDA_MEMCPY3D *arg2 = (CUDA_MEMCPY3D *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 = 0 ;
+    int res2 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 2) || (items > 2)) {
+      SWIG_croak("Usage: Array_Memcpy3DAsync(self,cp);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_Memcpy3DAsync" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1), &argp2,SWIGTYPE_p_CUDA_MEMCPY3D, 0 |  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Array_Memcpy3DAsync" "', argument " "2"" of type '" "CUDA_MEMCPY3D const *""'"); 
+    }
+    arg2 = reinterpret_cast< CUDA_MEMCPY3D * >(argp2);
+    result = (kappa::Array *) &(arg1)->Memcpy3DAsync((CUDA_MEMCPY3D const *)arg2);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_Memcpy3DAsync) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 2) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Array, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(1), &vptr, SWIGTYPE_p_CUDA_MEMCPY3D, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 3) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Array, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(1), &vptr, SWIGTYPE_p_CUDA_MEMCPY3D, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(2), &vptr, SWIGTYPE_p_CUstream, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Array_Memcpy3DAsync__SWIG_1); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Array_Memcpy3DAsync__SWIG_0); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Array_Memcpy3DAsync'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Array_FromLocal) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *arg2 = (void *) 0 ;
+    unsigned int arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int res2 ;
+    unsigned int val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Array_FromLocal(self,pointer,mem_size);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_FromLocal" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1),SWIG_as_voidptrptr(&arg2), 0, 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Array_FromLocal" "', argument " "2"" of type '" "void *""'"); 
+    }
+    ecode3 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Array_FromLocal" "', argument " "3"" of type '" "unsigned int""'");
+    } 
+    arg3 = static_cast< unsigned int >(val3);
+    result = (kappa::Array *) &(arg1)->FromLocal(arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_FromLocalAsync__SWIG_0) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *arg2 = (void *) 0 ;
+    unsigned int arg3 ;
+    CUstream arg4 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int res2 ;
+    unsigned int val3 ;
+    int ecode3 = 0 ;
+    void *argp4 ;
+    int res4 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 4) || (items > 4)) {
+      SWIG_croak("Usage: Array_FromLocalAsync(self,pointer,mem_size,stream);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_FromLocalAsync" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1),SWIG_as_voidptrptr(&arg2), 0, 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Array_FromLocalAsync" "', argument " "2"" of type '" "void *""'"); 
+    }
+    ecode3 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Array_FromLocalAsync" "', argument " "3"" of type '" "unsigned int""'");
+    } 
+    arg3 = static_cast< unsigned int >(val3);
+    {
+      res4 = SWIG_ConvertPtr(ST(3), &argp4, SWIGTYPE_p_CUstream,  0 );
+      if (!SWIG_IsOK(res4)) {
+        SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "Array_FromLocalAsync" "', argument " "4"" of type '" "CUstream""'"); 
+      }  
+      if (!argp4) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Array_FromLocalAsync" "', argument " "4"" of type '" "CUstream""'");
+      } else {
+        arg4 = *(reinterpret_cast< CUstream * >(argp4));
+      }
+    }
+    result = (kappa::Array *) &(arg1)->FromLocalAsync(arg2,arg3,arg4);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_FromLocalAsync__SWIG_1) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *arg2 = (void *) 0 ;
+    unsigned int arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int res2 ;
+    unsigned int val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Array_FromLocalAsync(self,pointer,mem_size);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_FromLocalAsync" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    res2 = SWIG_ConvertPtr(ST(1),SWIG_as_voidptrptr(&arg2), 0, 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Array_FromLocalAsync" "', argument " "2"" of type '" "void *""'"); 
+    }
+    ecode3 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Array_FromLocalAsync" "', argument " "3"" of type '" "unsigned int""'");
+    } 
+    arg3 = static_cast< unsigned int >(val3);
+    result = (kappa::Array *) &(arg1)->FromLocalAsync(arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_FromLocalAsync) {
+  dXSARGS;
+  
+  {
+    unsigned long _index = 0;
+    SWIG_TypeRank _rank = 0; 
+    if (items == 3) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Array, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *ptr = 0;
+        int res = SWIG_ConvertPtr(ST(1), &ptr, 0, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_1;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 1;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_1:
+    
+    if (items == 4) {
+      SWIG_TypeRank _ranki = 0;
+      SWIG_TypeRank _rankm = 0;
+      SWIG_TypeRank _pi = 1;
+      int _v = 0;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(0), &vptr, SWIGTYPE_p_kappa__Array, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *ptr = 0;
+        int res = SWIG_ConvertPtr(ST(1), &ptr, 0, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        {
+          int res = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), NULL);
+          _v = SWIG_CheckState(res);
+        }
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      {
+        void *vptr = 0;
+        int res = SWIG_ConvertPtr(ST(3), &vptr, SWIGTYPE_p_CUstream, 0);
+        _v = SWIG_CheckState(res);
+      }
+      if (!_v) goto check_2;
+      _ranki += _v*_pi;
+      _rankm += _pi;
+      _pi *= SWIG_MAXCASTRANK;
+      if (!_index || (_ranki < _rank)) {
+        _rank = _ranki; _index = 2;
+        if (_rank == _rankm) goto dispatch;
+      }
+    }
+  check_2:
+    
+  dispatch:
+    switch(_index) {
+    case 1:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Array_FromLocalAsync__SWIG_1); return;
+    case 2:
+      ++PL_markstack_ptr; SWIG_CALLXS(_wrap_Array_FromLocalAsync__SWIG_0); return;
+    }
+  }
+  
+  croak("No matching function for overloaded 'Array_FromLocalAsync'");
+  XSRETURN(0);
+}
+
+
+XS(_wrap_Array_FromDevice) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    CUdeviceptr arg2 ;
+    unsigned int arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 ;
+    int res2 = 0 ;
+    unsigned int val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Array_FromDevice(self,dptr,mem_size);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_FromDevice" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    {
+      res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_CUdeviceptr,  0 );
+      if (!SWIG_IsOK(res2)) {
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Array_FromDevice" "', argument " "2"" of type '" "CUdeviceptr""'"); 
+      }  
+      if (!argp2) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Array_FromDevice" "', argument " "2"" of type '" "CUdeviceptr""'");
+      } else {
+        arg2 = *(reinterpret_cast< CUdeviceptr * >(argp2));
+      }
+    }
+    ecode3 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Array_FromDevice" "', argument " "3"" of type '" "unsigned int""'");
+    } 
+    arg3 = static_cast< unsigned int >(val3);
+    result = (kappa::Array *) &(arg1)->FromDevice(arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_FromArray) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    CUarray arg2 ;
+    unsigned int arg3 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    void *argp2 ;
+    int res2 = 0 ;
+    unsigned int val3 ;
+    int ecode3 = 0 ;
+    int argvi = 0;
+    kappa::Array *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 3) || (items > 3)) {
+      SWIG_croak("Usage: Array_FromArray(self,array,mem_size);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_FromArray" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    {
+      res2 = SWIG_ConvertPtr(ST(1), &argp2, SWIGTYPE_p_CUarray,  0 );
+      if (!SWIG_IsOK(res2)) {
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Array_FromArray" "', argument " "2"" of type '" "CUarray""'"); 
+      }  
+      if (!argp2) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Array_FromArray" "', argument " "2"" of type '" "CUarray""'");
+      } else {
+        arg2 = *(reinterpret_cast< CUarray * >(argp2));
+      }
+    }
+    ecode3 = SWIG_AsVal_unsigned_SS_int SWIG_PERL_CALL_ARGS_2(ST(2), &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Array_FromArray" "', argument " "3"" of type '" "unsigned int""'");
+    } 
+    arg3 = static_cast< unsigned int >(val3);
+    result = (kappa::Array *) &(arg1)->FromArray(arg2,arg3);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_kappa__Array, 0 | SWIG_SHADOW); argvi++ ;
+    
+    
+    XSRETURN(argvi);
+  fail:
+    
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_Array_ArrayAccess) {
+  {
+    kappa::Array *arg1 = (kappa::Array *) 0 ;
+    void *argp1 = 0 ;
+    int res1 = 0 ;
+    int argvi = 0;
+    CUarray result;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: Array_ArrayAccess(self);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0), &argp1,SWIGTYPE_p_kappa__Array, 0 |  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Array_ArrayAccess" "', argument " "1"" of type '" "kappa::Array *""'"); 
+    }
+    arg1 = reinterpret_cast< kappa::Array * >(argp1);
+    result = (arg1)->ArrayAccess();
+    ST(argvi) = SWIG_NewPointerObj((new CUarray(static_cast< const CUarray& >(result))), SWIGTYPE_p_CUarray, SWIG_POINTER_OWN | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_intptr_fromvoidptr) {
+  {
+    void *arg1 = (void *) 0 ;
+    int res1 ;
+    int argvi = 0;
+    int *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: intptr_fromvoidptr(voidptr);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0),SWIG_as_voidptrptr(&arg1), 0, 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "intptr_fromvoidptr" "', argument " "1"" of type '" "void *""'"); 
+    }
+    result = (int *)intptr_fromvoidptr(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_int, 0 | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_unsignedptr_fromvoidptr) {
+  {
+    void *arg1 = (void *) 0 ;
+    int res1 ;
+    int argvi = 0;
+    unsigned int *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: unsignedptr_fromvoidptr(voidptr);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0),SWIG_as_voidptrptr(&arg1), 0, 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "unsignedptr_fromvoidptr" "', argument " "1"" of type '" "void *""'"); 
+    }
+    result = (unsigned int *)unsignedptr_fromvoidptr(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_unsigned_int, 0 | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_floatptr_fromvoidptr) {
+  {
+    void *arg1 = (void *) 0 ;
+    int res1 ;
+    int argvi = 0;
+    float *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: floatptr_fromvoidptr(voidptr);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0),SWIG_as_voidptrptr(&arg1), 0, 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "floatptr_fromvoidptr" "', argument " "1"" of type '" "void *""'"); 
+    }
+    result = (float *)floatptr_fromvoidptr(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_float, 0 | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
+XS(_wrap_doubleptr_fromvoidptr) {
+  {
+    void *arg1 = (void *) 0 ;
+    int res1 ;
+    int argvi = 0;
+    double *result = 0 ;
+    dXSARGS;
+    
+    if ((items < 1) || (items > 1)) {
+      SWIG_croak("Usage: doubleptr_fromvoidptr(voidptr);");
+    }
+    res1 = SWIG_ConvertPtr(ST(0),SWIG_as_voidptrptr(&arg1), 0, 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "doubleptr_fromvoidptr" "', argument " "1"" of type '" "void *""'"); 
+    }
+    result = (double *)doubleptr_fromvoidptr(arg1);
+    ST(argvi) = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_double, 0 | 0); argvi++ ;
+    
+    XSRETURN(argvi);
+  fail:
+    
+    SWIG_croak_null();
+  }
+}
+
+
 
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
+static void *_p_doubleArrayTo_p_double(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((double *)  ((doubleArray *) x));
+}
+static void *_p_unsignedArrayTo_p_unsigned_int(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((unsigned int *)  ((unsignedArray *) x));
+}
 static void *_p_kappa__ProcessTo_p_kappa__ExceptionHandler(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((kappa::ExceptionHandler *)  ((kappa::Process *) x));
+}
+static void *_p_floatArrayTo_p_float(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((float *)  ((floatArray *) x));
+}
+static void *_p_intArrayTo_p_int(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((int *)  ((intArray *) x));
 }
 static void *_p_kappa__AttributesTo_p_kappa__Values(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((kappa::Values *)  ((kappa::Attributes *) x));
 }
 static swig_type_info _swigt__p_CUDA_CONTEXT_TYPE = {"_p_CUDA_CONTEXT_TYPE", "CUDA_CONTEXT_TYPE *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_CUDA_MEMCPY2D = {"_p_CUDA_MEMCPY2D", "CUDA_MEMCPY2D *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_CUDA_MEMCPY3D = {"_p_CUDA_MEMCPY3D", "CUDA_MEMCPY3D *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_CUaddress_mode = {"_p_CUaddress_mode", "CUaddress_mode *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_CUarray = {"_p_CUarray", "CUarray *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CUarray_format = {"_p_CUarray_format", "CUarray_format *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CUcontext = {"_p_CUcontext", "CUcontext *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_CUdeviceptr = {"_p_CUdeviceptr", "CUdeviceptr *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_CUfilter_mode = {"_p_CUfilter_mode", "CUfilter_mode *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CUmodule = {"_p_CUmodule", "CUmodule *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CUresult = {"_p_CUresult", "CUresult *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_CUstream = {"_p_CUstream", "CUstream *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_CUtexref = {"_p_CUtexref", "CUtexref *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Cmodule = {"_p_Cmodule", "Cmodule *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CommandKeywordFactoryFunction = {"_p_CommandKeywordFactoryFunction", "CommandKeywordFactoryFunction *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Exception = {"_p_Exception", "Exception *", 0, 0, (void*)0, 0};
@@ -30538,17 +36372,23 @@ static swig_type_info _swigt__p_Indices = {"_p_Indices", "Indices *", 0, 0, (voi
 static swig_type_info _swigt__p_LOCK_TYPE = {"_p_LOCK_TYPE", "LOCK_TYPE *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_LockException = {"_p_LockException", "LockException *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_double = {"_p_double", "double *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_doubleArray = {"_p_doubleArray", "doubleArray *", 0, 0, (void*)"KappaCUDA::doubleArray", 0};
 static swig_type_info _swigt__p_f_p_void__p_void = {"_p_f_p_void__p_void", "void *(*)(void *)|kappa::KAPPA_PROCESS", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_float = {"_p_float", "float *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_floatArray = {"_p_floatArray", "floatArray *", 0, 0, (void*)"KappaCUDA::floatArray", 0};
+static swig_type_info _swigt__p_int = {"_p_int", "int *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int16_t = {"_p_int16_t", "int16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int32_t = {"_p_int32_t", "int32_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int64_t = {"_p_int64_t", "int64_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int8_t = {"_p_int8_t", "int8_t *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_intArray = {"_p_intArray", "intArray *", 0, 0, (void*)"KappaCUDA::intArray", 0};
 static swig_type_info _swigt__p_kappa__Arguments = {"_p_kappa__Arguments", "kappa::Arguments *", 0, 0, (void*)"KappaCUDA::Arguments", 0};
-static swig_type_info _swigt__p_kappa__Array = {"_p_kappa__Array", "kappa::Array *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_kappa__Array = {"_p_kappa__Array", "kappa::Array *", 0, 0, (void*)"KappaCUDA::Array", 0};
 static swig_type_info _swigt__p_kappa__Attributes = {"_p_kappa__Attributes", "kappa::Attributes *", 0, 0, (void*)"KappaCUDA::Attributes", 0};
 static swig_type_info _swigt__p_kappa__CUDA__Module = {"_p_kappa__CUDA__Module", "kappa::CUDA::Module *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_kappa__C__Module = {"_p_kappa__C__Module", "kappa::C::Module *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_kappa__Command = {"_p_kappa__Command", "kappa::Command *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_kappa__Command = {"_p_kappa__Command", "kappa::Command *", 0, 0, (void*)"KappaCUDA::Command", 0};
 static swig_type_info _swigt__p_kappa__CommandQueue = {"_p_kappa__CommandQueue", "kappa::CommandQueue *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_kappa__Context = {"_p_kappa__Context", "kappa::Context *", 0, 0, (void*)"KappaCUDA::Context", 0};
 static swig_type_info _swigt__p_kappa__Evaluator = {"_p_kappa__Evaluator", "kappa::Evaluator *", 0, 0, (void*)0, 0};
@@ -30562,14 +36402,17 @@ static swig_type_info _swigt__p_kappa__KappaConfigCUDA = {"_p_kappa__KappaConfig
 static swig_type_info _swigt__p_kappa__Namespace = {"_p_kappa__Namespace", "kappa::Namespace *", 0, 0, (void*)"KappaCUDA::Namespace", 0};
 static swig_type_info _swigt__p_kappa__Process = {"_p_kappa__Process", "kappa::Process *", 0, 0, (void*)"KappaCUDA::Process", 0};
 static swig_type_info _swigt__p_kappa__ProcessControlBlock = {"_p_kappa__ProcessControlBlock", "kappa::ProcessControlBlock *", 0, 0, (void*)"KappaCUDA::ProcessControlBlock", 0};
+static swig_type_info _swigt__p_kappa__Recipient = {"_p_kappa__Recipient", "kappa::Recipient *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_kappa__Resource = {"_p_kappa__Resource", "kappa::Resource *", 0, 0, (void*)"KappaCUDA::Resource", 0};
 static swig_type_info _swigt__p_kappa__Result = {"_p_kappa__Result", "kappa::Result *", 0, 0, (void*)"KappaCUDA::Result", 0};
 static swig_type_info _swigt__p_kappa__Stream = {"_p_kappa__Stream", "kappa::Stream *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_kappa__Value = {"_p_kappa__Value", "kappa::Value *", 0, 0, (void*)"KappaCUDA::Value", 0};
 static swig_type_info _swigt__p_kappa__Values = {"_p_kappa__Values", "kappa::Values *", 0, 0, (void*)"KappaCUDA::Values", 0};
-static swig_type_info _swigt__p_kappa__Variable = {"_p_kappa__Variable", "kappa::Variable *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_kappa__Variable = {"_p_kappa__Variable", "kappa::Variable *", 0, 0, (void*)"KappaCUDA::Variable", 0};
+static swig_type_info _swigt__p_kappa__command__CommandStatus = {"_p_kappa__command__CommandStatus", "kappa::command::COMMAND_STATUS *|enum kappa::command::CommandStatus *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_kappa__command__Keyword = {"_p_kappa__command__Keyword", "kappa::command::Keyword *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_kappa__cudaGPU = {"_p_kappa__cudaGPU", "kappa::cudaGPU *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_kappa__variable__Authority = {"_p_kappa__variable__Authority", "enum kappa::variable::Authority *|kappa::variable::Authority *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_p_char = {"_p_p_char", "char **", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_pthread_t = {"_p_pthread_t", "pthread_t *|kappa::KappaThread *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__bad_exception = {"_p_std__bad_exception", "std::bad_exception *", 0, 0, (void*)0, 0};
@@ -30582,6 +36425,8 @@ static swig_type_info _swigt__p_uint16_t = {"_p_uint16_t", "uint16_t *", 0, 0, (
 static swig_type_info _swigt__p_uint32_t = {"_p_uint32_t", "uint32_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_uint64_t = {"_p_uint64_t", "uint64_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_uint8_t = {"_p_uint8_t", "uint8_t *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_unsignedArray = {"_p_unsignedArray", "unsignedArray *", 0, 0, (void*)"KappaCUDA::unsignedArray", 0};
+static swig_type_info _swigt__p_unsigned_int = {"_p_unsigned_int", "unsigned int *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_value__TYPE = {"_p_value__TYPE", "value::TYPE *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_value__VALUE = {"_p_value__VALUE", "value::VALUE *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_value__type__Bool = {"_p_value__type__Bool", "value::type::Bool *", 0, 0, (void*)0, 0};
@@ -30608,10 +36453,18 @@ static swig_type_info _swigt__p_void = {"_p_void", "void *", 0, 0, (void*)0, 0};
 
 static swig_type_info *swig_type_initial[] = {
   &_swigt__p_CUDA_CONTEXT_TYPE,
+  &_swigt__p_CUDA_MEMCPY2D,
+  &_swigt__p_CUDA_MEMCPY3D,
+  &_swigt__p_CUaddress_mode,
+  &_swigt__p_CUarray,
   &_swigt__p_CUarray_format,
   &_swigt__p_CUcontext,
+  &_swigt__p_CUdeviceptr,
+  &_swigt__p_CUfilter_mode,
   &_swigt__p_CUmodule,
   &_swigt__p_CUresult,
+  &_swigt__p_CUstream,
+  &_swigt__p_CUtexref,
   &_swigt__p_Cmodule,
   &_swigt__p_CommandKeywordFactoryFunction,
   &_swigt__p_Exception,
@@ -30620,11 +36473,17 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_LOCK_TYPE,
   &_swigt__p_LockException,
   &_swigt__p_char,
+  &_swigt__p_double,
+  &_swigt__p_doubleArray,
   &_swigt__p_f_p_void__p_void,
+  &_swigt__p_float,
+  &_swigt__p_floatArray,
+  &_swigt__p_int,
   &_swigt__p_int16_t,
   &_swigt__p_int32_t,
   &_swigt__p_int64_t,
   &_swigt__p_int8_t,
+  &_swigt__p_intArray,
   &_swigt__p_kappa__Arguments,
   &_swigt__p_kappa__Array,
   &_swigt__p_kappa__Attributes,
@@ -30644,14 +36503,17 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_kappa__Namespace,
   &_swigt__p_kappa__Process,
   &_swigt__p_kappa__ProcessControlBlock,
+  &_swigt__p_kappa__Recipient,
   &_swigt__p_kappa__Resource,
   &_swigt__p_kappa__Result,
   &_swigt__p_kappa__Stream,
   &_swigt__p_kappa__Value,
   &_swigt__p_kappa__Values,
   &_swigt__p_kappa__Variable,
+  &_swigt__p_kappa__command__CommandStatus,
   &_swigt__p_kappa__command__Keyword,
   &_swigt__p_kappa__cudaGPU,
+  &_swigt__p_kappa__variable__Authority,
   &_swigt__p_p_char,
   &_swigt__p_pthread_t,
   &_swigt__p_std__bad_exception,
@@ -30664,6 +36526,8 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_uint32_t,
   &_swigt__p_uint64_t,
   &_swigt__p_uint8_t,
+  &_swigt__p_unsignedArray,
+  &_swigt__p_unsigned_int,
   &_swigt__p_value__TYPE,
   &_swigt__p_value__VALUE,
   &_swigt__p_value__type__Bool,
@@ -30690,10 +36554,18 @@ static swig_type_info *swig_type_initial[] = {
 };
 
 static swig_cast_info _swigc__p_CUDA_CONTEXT_TYPE[] = {  {&_swigt__p_CUDA_CONTEXT_TYPE, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_CUDA_MEMCPY2D[] = {  {&_swigt__p_CUDA_MEMCPY2D, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_CUDA_MEMCPY3D[] = {  {&_swigt__p_CUDA_MEMCPY3D, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_CUaddress_mode[] = {  {&_swigt__p_CUaddress_mode, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_CUarray[] = {  {&_swigt__p_CUarray, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CUarray_format[] = {  {&_swigt__p_CUarray_format, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CUcontext[] = {  {&_swigt__p_CUcontext, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_CUdeviceptr[] = {  {&_swigt__p_CUdeviceptr, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_CUfilter_mode[] = {  {&_swigt__p_CUfilter_mode, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CUmodule[] = {  {&_swigt__p_CUmodule, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CUresult[] = {  {&_swigt__p_CUresult, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_CUstream[] = {  {&_swigt__p_CUstream, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_CUtexref[] = {  {&_swigt__p_CUtexref, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Cmodule[] = {  {&_swigt__p_Cmodule, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CommandKeywordFactoryFunction[] = {  {&_swigt__p_CommandKeywordFactoryFunction, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Exception[] = {  {&_swigt__p_Exception, 0, 0, 0},{0, 0, 0, 0}};
@@ -30702,11 +36574,17 @@ static swig_cast_info _swigc__p_Indices[] = {  {&_swigt__p_Indices, 0, 0, 0},{0,
 static swig_cast_info _swigc__p_LOCK_TYPE[] = {  {&_swigt__p_LOCK_TYPE, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_LockException[] = {  {&_swigt__p_LockException, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_double[] = {  {&_swigt__p_doubleArray, _p_doubleArrayTo_p_double, 0, 0},  {&_swigt__p_double, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_doubleArray[] = {  {&_swigt__p_doubleArray, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_f_p_void__p_void[] = {  {&_swigt__p_f_p_void__p_void, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_float[] = {  {&_swigt__p_float, 0, 0, 0},  {&_swigt__p_floatArray, _p_floatArrayTo_p_float, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_floatArray[] = {  {&_swigt__p_floatArray, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_intArray, _p_intArrayTo_p_int, 0, 0},  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int16_t[] = {  {&_swigt__p_int16_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int32_t[] = {  {&_swigt__p_int32_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int64_t[] = {  {&_swigt__p_int64_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int8_t[] = {  {&_swigt__p_int8_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_intArray[] = {  {&_swigt__p_intArray, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__Arguments[] = {  {&_swigt__p_kappa__Arguments, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__Array[] = {  {&_swigt__p_kappa__Array, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__Attributes[] = {  {&_swigt__p_kappa__Attributes, 0, 0, 0},{0, 0, 0, 0}};
@@ -30726,14 +36604,17 @@ static swig_cast_info _swigc__p_kappa__KappaConfigCUDA[] = {  {&_swigt__p_kappa_
 static swig_cast_info _swigc__p_kappa__Namespace[] = {  {&_swigt__p_kappa__Namespace, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__Process[] = {  {&_swigt__p_kappa__Process, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__ProcessControlBlock[] = {  {&_swigt__p_kappa__ProcessControlBlock, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_kappa__Recipient[] = {  {&_swigt__p_kappa__Recipient, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__Resource[] = {  {&_swigt__p_kappa__Resource, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__Result[] = {  {&_swigt__p_kappa__Result, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__Stream[] = {  {&_swigt__p_kappa__Stream, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__Value[] = {  {&_swigt__p_kappa__Value, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__Values[] = {  {&_swigt__p_kappa__Attributes, _p_kappa__AttributesTo_p_kappa__Values, 0, 0},  {&_swigt__p_kappa__Values, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__Variable[] = {  {&_swigt__p_kappa__Variable, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_kappa__command__CommandStatus[] = {  {&_swigt__p_kappa__command__CommandStatus, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__command__Keyword[] = {  {&_swigt__p_kappa__command__Keyword, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_kappa__cudaGPU[] = {  {&_swigt__p_kappa__cudaGPU, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_kappa__variable__Authority[] = {  {&_swigt__p_kappa__variable__Authority, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_char[] = {  {&_swigt__p_p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_pthread_t[] = {  {&_swigt__p_pthread_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__bad_exception[] = {  {&_swigt__p_std__bad_exception, 0, 0, 0},{0, 0, 0, 0}};
@@ -30746,6 +36627,8 @@ static swig_cast_info _swigc__p_uint16_t[] = {  {&_swigt__p_uint16_t, 0, 0, 0},{
 static swig_cast_info _swigc__p_uint32_t[] = {  {&_swigt__p_uint32_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_uint64_t[] = {  {&_swigt__p_uint64_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_uint8_t[] = {  {&_swigt__p_uint8_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_unsignedArray[] = {  {&_swigt__p_unsignedArray, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_unsigned_int[] = {  {&_swigt__p_unsigned_int, 0, 0, 0},  {&_swigt__p_unsignedArray, _p_unsignedArrayTo_p_unsigned_int, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_value__TYPE[] = {  {&_swigt__p_value__TYPE, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_value__VALUE[] = {  {&_swigt__p_value__VALUE, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_value__type__Bool[] = {  {&_swigt__p_value__type__Bool, 0, 0, 0},{0, 0, 0, 0}};
@@ -30772,10 +36655,18 @@ static swig_cast_info _swigc__p_void[] = {  {&_swigt__p_void, 0, 0, 0},{0, 0, 0,
 
 static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_CUDA_CONTEXT_TYPE,
+  _swigc__p_CUDA_MEMCPY2D,
+  _swigc__p_CUDA_MEMCPY3D,
+  _swigc__p_CUaddress_mode,
+  _swigc__p_CUarray,
   _swigc__p_CUarray_format,
   _swigc__p_CUcontext,
+  _swigc__p_CUdeviceptr,
+  _swigc__p_CUfilter_mode,
   _swigc__p_CUmodule,
   _swigc__p_CUresult,
+  _swigc__p_CUstream,
+  _swigc__p_CUtexref,
   _swigc__p_Cmodule,
   _swigc__p_CommandKeywordFactoryFunction,
   _swigc__p_Exception,
@@ -30784,11 +36675,17 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_LOCK_TYPE,
   _swigc__p_LockException,
   _swigc__p_char,
+  _swigc__p_double,
+  _swigc__p_doubleArray,
   _swigc__p_f_p_void__p_void,
+  _swigc__p_float,
+  _swigc__p_floatArray,
+  _swigc__p_int,
   _swigc__p_int16_t,
   _swigc__p_int32_t,
   _swigc__p_int64_t,
   _swigc__p_int8_t,
+  _swigc__p_intArray,
   _swigc__p_kappa__Arguments,
   _swigc__p_kappa__Array,
   _swigc__p_kappa__Attributes,
@@ -30808,14 +36705,17 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_kappa__Namespace,
   _swigc__p_kappa__Process,
   _swigc__p_kappa__ProcessControlBlock,
+  _swigc__p_kappa__Recipient,
   _swigc__p_kappa__Resource,
   _swigc__p_kappa__Result,
   _swigc__p_kappa__Stream,
   _swigc__p_kappa__Value,
   _swigc__p_kappa__Values,
   _swigc__p_kappa__Variable,
+  _swigc__p_kappa__command__CommandStatus,
   _swigc__p_kappa__command__Keyword,
   _swigc__p_kappa__cudaGPU,
+  _swigc__p_kappa__variable__Authority,
   _swigc__p_p_char,
   _swigc__p_pthread_t,
   _swigc__p_std__bad_exception,
@@ -30828,6 +36728,8 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_uint32_t,
   _swigc__p_uint64_t,
   _swigc__p_uint8_t,
+  _swigc__p_unsignedArray,
+  _swigc__p_unsigned_int,
   _swigc__p_value__TYPE,
   _swigc__p_value__VALUE,
   _swigc__p_value__type__Bool,
@@ -30866,6 +36768,30 @@ static swig_variable_info swig_variables[] = {
 {0,0,0,0}
 };
 static swig_command_info swig_commands[] = {
+{"KappaCUDAc::new_intArray", _wrap_new_intArray},
+{"KappaCUDAc::delete_intArray", _wrap_delete_intArray},
+{"KappaCUDAc::intArray_getitem", _wrap_intArray_getitem},
+{"KappaCUDAc::intArray_setitem", _wrap_intArray_setitem},
+{"KappaCUDAc::intArray_cast", _wrap_intArray_cast},
+{"KappaCUDAc::intArray_frompointer", _wrap_intArray_frompointer},
+{"KappaCUDAc::new_unsignedArray", _wrap_new_unsignedArray},
+{"KappaCUDAc::delete_unsignedArray", _wrap_delete_unsignedArray},
+{"KappaCUDAc::unsignedArray_getitem", _wrap_unsignedArray_getitem},
+{"KappaCUDAc::unsignedArray_setitem", _wrap_unsignedArray_setitem},
+{"KappaCUDAc::unsignedArray_cast", _wrap_unsignedArray_cast},
+{"KappaCUDAc::unsignedArray_frompointer", _wrap_unsignedArray_frompointer},
+{"KappaCUDAc::new_floatArray", _wrap_new_floatArray},
+{"KappaCUDAc::delete_floatArray", _wrap_delete_floatArray},
+{"KappaCUDAc::floatArray_getitem", _wrap_floatArray_getitem},
+{"KappaCUDAc::floatArray_setitem", _wrap_floatArray_setitem},
+{"KappaCUDAc::floatArray_cast", _wrap_floatArray_cast},
+{"KappaCUDAc::floatArray_frompointer", _wrap_floatArray_frompointer},
+{"KappaCUDAc::new_doubleArray", _wrap_new_doubleArray},
+{"KappaCUDAc::delete_doubleArray", _wrap_delete_doubleArray},
+{"KappaCUDAc::doubleArray_getitem", _wrap_doubleArray_getitem},
+{"KappaCUDAc::doubleArray_setitem", _wrap_doubleArray_setitem},
+{"KappaCUDAc::doubleArray_cast", _wrap_doubleArray_cast},
+{"KappaCUDAc::doubleArray_frompointer", _wrap_doubleArray_frompointer},
 {"KappaCUDAc::new_Kappa", _wrap_new_Kappa},
 {"KappaCUDAc::delete_Kappa", _wrap_delete_Kappa},
 {"KappaCUDAc::Kappa_Good", _wrap_Kappa_Good},
@@ -31070,6 +36996,93 @@ static swig_command_info swig_commands[] = {
 {"KappaCUDAc::Context_MemoryFree", _wrap_Context_MemoryFree},
 {"KappaCUDAc::Context_MemoryTotal", _wrap_Context_MemoryTotal},
 {"KappaCUDAc::Context_MemoryUsed", _wrap_Context_MemoryUsed},
+{"KappaCUDAc::new_Command", _wrap_new_Command},
+{"KappaCUDAc::delete_Command", _wrap_delete_Command},
+{"KappaCUDAc::Command_SetType", _wrap_Command_SetType},
+{"KappaCUDAc::Command_GetType", _wrap_Command_GetType},
+{"KappaCUDAc::Command_GetName", _wrap_Command_GetName},
+{"KappaCUDAc::Command_SetTrace", _wrap_Command_SetTrace},
+{"KappaCUDAc::Command_AnyOrder", _wrap_Command_AnyOrder},
+{"KappaCUDAc::Command_IsStop", _wrap_Command_IsStop},
+{"KappaCUDAc::Command_IsAsync", _wrap_Command_IsAsync},
+{"KappaCUDAc::Command_SetRecipient", _wrap_Command_SetRecipient},
+{"KappaCUDAc::Command_Notification", _wrap_Command_Notification},
+{"KappaCUDAc::Command_SetAsync", _wrap_Command_SetAsync},
+{"KappaCUDAc::Command_ClearAsync", _wrap_Command_ClearAsync},
+{"KappaCUDAc::Command_SetReady", _wrap_Command_SetReady},
+{"KappaCUDAc::Command_SetRunning", _wrap_Command_SetRunning},
+{"KappaCUDAc::Command_SetPaused", _wrap_Command_SetPaused},
+{"KappaCUDAc::Command_SetCanceled", _wrap_Command_SetCanceled},
+{"KappaCUDAc::Command_SetFailed", _wrap_Command_SetFailed},
+{"KappaCUDAc::Command_SetFinished", _wrap_Command_SetFinished},
+{"KappaCUDAc::Command_UpdateStatus", _wrap_Command_UpdateStatus},
+{"KappaCUDAc::Command_IsReady", _wrap_Command_IsReady},
+{"KappaCUDAc::Command_IsRunning", _wrap_Command_IsRunning},
+{"KappaCUDAc::Command_IsPaused", _wrap_Command_IsPaused},
+{"KappaCUDAc::Command_IsCanceled", _wrap_Command_IsCanceled},
+{"KappaCUDAc::Command_IsFailed", _wrap_Command_IsFailed},
+{"KappaCUDAc::Command_IsFinished", _wrap_Command_IsFinished},
+{"KappaCUDAc::Command_SetName", _wrap_Command_SetName},
+{"KappaCUDAc::Command_Execute", _wrap_Command_Execute},
+{"KappaCUDAc::Command_SetStream", _wrap_Command_SetStream},
+{"KappaCUDAc::Command_GetStream", _wrap_Command_GetStream},
+{"KappaCUDAc::Command_NeedStream", _wrap_Command_NeedStream},
+{"KappaCUDAc::delete_Variable", _wrap_delete_Variable},
+{"KappaCUDAc::Variable_Copy", _wrap_Variable_Copy},
+{"KappaCUDAc::Variable_Free", _wrap_Variable_Free},
+{"KappaCUDAc::Variable_SetAuthority", _wrap_Variable_SetAuthority},
+{"KappaCUDAc::Variable_ForceAuthority", _wrap_Variable_ForceAuthority},
+{"KappaCUDAc::Variable_Dimensions", _wrap_Variable_Dimensions},
+{"KappaCUDAc::Variable_DimSize", _wrap_Variable_DimSize},
+{"KappaCUDAc::Variable_Size", _wrap_Variable_Size},
+{"KappaCUDAc::Variable_ElementSize", _wrap_Variable_ElementSize},
+{"KappaCUDAc::Variable_GetName", _wrap_Variable_GetName},
+{"KappaCUDAc::Variable_Result", _wrap_Variable_Result},
+{"KappaCUDAc::Variable_IsLocked", _wrap_Variable_IsLocked},
+{"KappaCUDAc::Variable_Access", _wrap_Variable_Access},
+{"KappaCUDAc::Variable_DeviceAccess", _wrap_Variable_DeviceAccess},
+{"KappaCUDAc::Variable_TextureAccess", _wrap_Variable_TextureAccess},
+{"KappaCUDAc::Variable_HasTexture", _wrap_Variable_HasTexture},
+{"KappaCUDAc::Variable_TexUnit", _wrap_Variable_TexUnit},
+{"KappaCUDAc::Variable_Relinquish", _wrap_Variable_Relinquish},
+{"KappaCUDAc::Variable_SetAddressMode", _wrap_Variable_SetAddressMode},
+{"KappaCUDAc::Variable_SetFilterMode", _wrap_Variable_SetFilterMode},
+{"KappaCUDAc::Variable_SetTextureFlags", _wrap_Variable_SetTextureFlags},
+{"KappaCUDAc::Variable_SetStream", _wrap_Variable_SetStream},
+{"KappaCUDAc::Variable_GetStream", _wrap_Variable_GetStream},
+{"KappaCUDAc::Variable_VariableDimensions", _wrap_Variable_VariableDimensions},
+{"KappaCUDAc::Variable_IsTextureWritable", _wrap_Variable_IsTextureWritable},
+{"KappaCUDAc::Variable_FromVariable", _wrap_Variable_FromVariable},
+{"KappaCUDAc::Variable_FromLocal", _wrap_Variable_FromLocal},
+{"KappaCUDAc::Variable_FromDevice", _wrap_Variable_FromDevice},
+{"KappaCUDAc::Variable_FromArray", _wrap_Variable_FromArray},
+{"KappaCUDAc::Variable_DeviceMemSet", _wrap_Variable_DeviceMemSet},
+{"KappaCUDAc::Variable_IsReady", _wrap_Variable_IsReady},
+{"KappaCUDAc::delete_Array", _wrap_delete_Array},
+{"KappaCUDAc::Array_Result", _wrap_Array_Result},
+{"KappaCUDAc::Array_IsSet", _wrap_Array_IsSet},
+{"KappaCUDAc::Array_Is3D", _wrap_Array_Is3D},
+{"KappaCUDAc::Array_CUArray", _wrap_Array_CUArray},
+{"KappaCUDAc::Array_Width", _wrap_Array_Width},
+{"KappaCUDAc::Array_Height", _wrap_Array_Height},
+{"KappaCUDAc::Array_Depth", _wrap_Array_Depth},
+{"KappaCUDAc::Array_Format", _wrap_Array_Format},
+{"KappaCUDAc::Array_NumChannels", _wrap_Array_NumChannels},
+{"KappaCUDAc::Array_Malloc", _wrap_Array_Malloc},
+{"KappaCUDAc::Array_Free", _wrap_Array_Free},
+{"KappaCUDAc::Array_Memcpy2D", _wrap_Array_Memcpy2D},
+{"KappaCUDAc::Array_Memcpy3D", _wrap_Array_Memcpy3D},
+{"KappaCUDAc::Array_Memcpy2DAsync", _wrap_Array_Memcpy2DAsync},
+{"KappaCUDAc::Array_Memcpy3DAsync", _wrap_Array_Memcpy3DAsync},
+{"KappaCUDAc::Array_FromLocal", _wrap_Array_FromLocal},
+{"KappaCUDAc::Array_FromLocalAsync", _wrap_Array_FromLocalAsync},
+{"KappaCUDAc::Array_FromDevice", _wrap_Array_FromDevice},
+{"KappaCUDAc::Array_FromArray", _wrap_Array_FromArray},
+{"KappaCUDAc::Array_ArrayAccess", _wrap_Array_ArrayAccess},
+{"KappaCUDAc::intptr_fromvoidptr", _wrap_intptr_fromvoidptr},
+{"KappaCUDAc::unsignedptr_fromvoidptr", _wrap_unsignedptr_fromvoidptr},
+{"KappaCUDAc::floatptr_fromvoidptr", _wrap_floatptr_fromvoidptr},
+{"KappaCUDAc::doubleptr_fromvoidptr", _wrap_doubleptr_fromvoidptr},
 {0,0}
 };
 /* -----------------------------------------------------------------------------
@@ -31364,6 +37377,10 @@ XS(SWIG_init) {
     SvREADONLY_on(sv);
   }
   
+  SWIG_TypeClientData(SWIGTYPE_p_intArray, (void*) "KappaCUDA::intArray");
+  SWIG_TypeClientData(SWIGTYPE_p_unsignedArray, (void*) "KappaCUDA::unsignedArray");
+  SWIG_TypeClientData(SWIGTYPE_p_floatArray, (void*) "KappaCUDA::floatArray");
+  SWIG_TypeClientData(SWIGTYPE_p_doubleArray, (void*) "KappaCUDA::doubleArray");
   /*@SWIG:/usr/share/swig/1.3.39/perl5/perltypemaps.swg,65,%set_constant@*/ do {
     SV *sv = get_sv((char*) SWIG_prefix "KAPPA_DLL", TRUE | 0x2 | GV_ADDMULTI);
     sv_setsv(sv, SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(1)));
@@ -31423,6 +37440,59 @@ XS(SWIG_init) {
   SWIG_TypeClientData(SWIGTYPE_p_kappa__Arguments, (void*) "KappaCUDA::Arguments");
   SWIG_TypeClientData(SWIGTYPE_p_kappa__ProcessControlBlock, (void*) "KappaCUDA::ProcessControlBlock");
   SWIG_TypeClientData(SWIGTYPE_p_kappa__Context, (void*) "KappaCUDA::Context");
+  /*@SWIG:/usr/share/swig/1.3.39/perl5/perltypemaps.swg,65,%set_constant@*/ do {
+    SV *sv = get_sv((char*) SWIG_prefix "READY", TRUE | 0x2 | GV_ADDMULTI);
+    sv_setsv(sv, SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(kappa::command::READY)));
+    SvREADONLY_on(sv);
+  } while(0) /*@SWIG@*/;
+  /*@SWIG:/usr/share/swig/1.3.39/perl5/perltypemaps.swg,65,%set_constant@*/ do {
+    SV *sv = get_sv((char*) SWIG_prefix "RUNNING", TRUE | 0x2 | GV_ADDMULTI);
+    sv_setsv(sv, SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(kappa::command::RUNNING)));
+    SvREADONLY_on(sv);
+  } while(0) /*@SWIG@*/;
+  /*@SWIG:/usr/share/swig/1.3.39/perl5/perltypemaps.swg,65,%set_constant@*/ do {
+    SV *sv = get_sv((char*) SWIG_prefix "PAUSED", TRUE | 0x2 | GV_ADDMULTI);
+    sv_setsv(sv, SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(kappa::command::PAUSED)));
+    SvREADONLY_on(sv);
+  } while(0) /*@SWIG@*/;
+  /*@SWIG:/usr/share/swig/1.3.39/perl5/perltypemaps.swg,65,%set_constant@*/ do {
+    SV *sv = get_sv((char*) SWIG_prefix "CANCELED", TRUE | 0x2 | GV_ADDMULTI);
+    sv_setsv(sv, SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(kappa::command::CANCELED)));
+    SvREADONLY_on(sv);
+  } while(0) /*@SWIG@*/;
+  /*@SWIG:/usr/share/swig/1.3.39/perl5/perltypemaps.swg,65,%set_constant@*/ do {
+    SV *sv = get_sv((char*) SWIG_prefix "FINISHED", TRUE | 0x2 | GV_ADDMULTI);
+    sv_setsv(sv, SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(kappa::command::FINISHED)));
+    SvREADONLY_on(sv);
+  } while(0) /*@SWIG@*/;
+  /*@SWIG:/usr/share/swig/1.3.39/perl5/perltypemaps.swg,65,%set_constant@*/ do {
+    SV *sv = get_sv((char*) SWIG_prefix "FAILED", TRUE | 0x2 | GV_ADDMULTI);
+    sv_setsv(sv, SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(kappa::command::FAILED)));
+    SvREADONLY_on(sv);
+  } while(0) /*@SWIG@*/;
+  SWIG_TypeClientData(SWIGTYPE_p_kappa__Command, (void*) "KappaCUDA::Command");
+  /*@SWIG:/usr/share/swig/1.3.39/perl5/perltypemaps.swg,65,%set_constant@*/ do {
+    SV *sv = get_sv((char*) SWIG_prefix "None", TRUE | 0x2 | GV_ADDMULTI);
+    sv_setsv(sv, SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(kappa::variable::None)));
+    SvREADONLY_on(sv);
+  } while(0) /*@SWIG@*/;
+  /*@SWIG:/usr/share/swig/1.3.39/perl5/perltypemaps.swg,65,%set_constant@*/ do {
+    SV *sv = get_sv((char*) SWIG_prefix "Host", TRUE | 0x2 | GV_ADDMULTI);
+    sv_setsv(sv, SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(kappa::variable::Host)));
+    SvREADONLY_on(sv);
+  } while(0) /*@SWIG@*/;
+  /*@SWIG:/usr/share/swig/1.3.39/perl5/perltypemaps.swg,65,%set_constant@*/ do {
+    SV *sv = get_sv((char*) SWIG_prefix "Device", TRUE | 0x2 | GV_ADDMULTI);
+    sv_setsv(sv, SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(kappa::variable::Device)));
+    SvREADONLY_on(sv);
+  } while(0) /*@SWIG@*/;
+  /*@SWIG:/usr/share/swig/1.3.39/perl5/perltypemaps.swg,65,%set_constant@*/ do {
+    SV *sv = get_sv((char*) SWIG_prefix "Texture", TRUE | 0x2 | GV_ADDMULTI);
+    sv_setsv(sv, SWIG_From_int  SWIG_PERL_CALL_ARGS_1(static_cast< int >(kappa::variable::Texture)));
+    SvREADONLY_on(sv);
+  } while(0) /*@SWIG@*/;
+  SWIG_TypeClientData(SWIGTYPE_p_kappa__Variable, (void*) "KappaCUDA::Variable");
+  SWIG_TypeClientData(SWIGTYPE_p_kappa__Array, (void*) "KappaCUDA::Array");
   ST(0) = &PL_sv_yes;
   XSRETURN(1);
 }
