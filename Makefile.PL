@@ -7,6 +7,6 @@ WriteMakefile(
         'CC'      => 'g++',
         'LD'      => 'g++',
         'INC'  => '-I/usr/local/cuda/include',
-	'LIBS'    => ['-lKappa -lKappaConfig -lKappaParser -lKappaPlugin -lffi -lcuda -lmuparser -lpcrecpp'],                    # Name of custom libraries
+	'LIBS'    => ['-lKappa -lKappaConfig -lKappaParser -lKappaPlugin -lffi -lcuda -lpcrecpp'],                    # Name of custom libraries
 	'OBJECT'  => 'KappaCUDA_wrap.o'  # Object files
 );
