@@ -11,7 +11,7 @@
 
 #ifdef SWIGPERL
 %perlcode %{
-$KappaCUDA::VERSION = '1.2.0';
+$KappaCUDA::VERSION = '1.3.0';
 %}
 #endif
 
@@ -25,6 +25,11 @@ $KappaCUDA::VERSION = '1.2.0';
 %ignore kappa::Value::Type;
 #endif
 
+#ifdef SWIGCSHARP
+// This gives a compile warning.
+%ignore kappa::Command::GetType;
+#endif
+
 // Ignore non-exported (hidden) methods and variables
 %ignore kappa::Kappa::Cancel;
 %ignore kappa::Kappa::End;
@@ -34,12 +39,16 @@ $KappaCUDA::VERSION = '1.2.0';
 %ignore cuDevice;
 %ignore kappa_version;
 %ignore kappa::Process::Process;
+#ifndef SWIGCSHARP
 %ignore kappa::Process::GetIOCallbackFunction;
+#endif
 %ignore kappa::Resource::Resource;
 %ignore kappa::Resource::CommandDone;
 %ignore kappa::Resource::CheckCommandReady;
 %ignore kappa::Context::Context;
+#ifndef SWIGCSHARP
 %ignore kappa::Recipient;
+#endif
 %ignore kappa::Variable::Variable;
 %ignore kappa::Array::Array;
 %ignore kappa::DeviceMemory;
@@ -72,6 +81,9 @@ $KappaCUDA::VERSION = '1.2.0';
 #include "kappa/Command.h"
 #include "kappa/Variable.h"
 #include "kappa/Array.h"
+#ifdef SWIGCSHARP
+#include "kappa/Recipient.h"
+#endif
 
 KAPPA_DLL_EXPORT int *intptr_fromvoidptr(void *voidptr);
 KAPPA_DLL_EXPORT unsigned *unsignedptr_fromvoidptr(void *voidptr);
