@@ -1,4 +1,12 @@
+#if defined(SWIGCSHARP)
+%module(directors="1") KappaCUDA
+#else
+#if defined(SWIGJAVA)
+%module(directors="1") KappaCUDAjava
+#else
 %module KappaCUDA
+#endif
+#endif
 %include "std_string.i"
 #ifndef SWIGPHP
 %include "carrays.i"
@@ -11,7 +19,7 @@
 
 #ifdef SWIGPERL
 %perlcode %{
-$KappaCUDA::VERSION = '1.3.0';
+$KappaCUDA::VERSION = '1.3.1';
 %}
 #endif
 
@@ -25,10 +33,36 @@ $KappaCUDA::VERSION = '1.3.0';
 %ignore kappa::Value::Type;
 #endif
 
-#ifdef SWIGCSHARP
+#if defined(SWIGCSHARP) || defined(SWIGJAVA)
 // This gives a compile warning.
 %ignore kappa::Command::GetType;
+#if !defined(SWIGJAVA)
+%feature ("director") kappa::ExceptionHandler;
 #endif
+%feature ("director") kappa::command::Keyword;
+%feature ("director") kappa::Recipient;
+#endif
+
+#if defined(SWIGCSHARP) || defined(SWIGJAVA) || defined(SWIGLUA)
+%ignore kappa::Context::GetStream(const char*);
+%ignore kappa::Context::Copy(const char*,const char*);
+%ignore kappa::Context::FreeVariable(const char*);
+%ignore kappa::Context::GetVariable(const char*);
+%ignore kappa::Context::GetArray(const char*);
+%ignore kappa::Command::Command(const char*);
+%ignore kappa::Command::SetName(const char*);
+#endif
+
+// The Kappa constructor should not be used.
+%ignore kappa::Kappa::Kappa;
+// The Kappa::Instance methods using c/c++ argc/argv are not useful to scripting languages.
+%ignore kappa::Kappa::Instance (const int,const char **,const unsigned int,LOCK_TYPE);
+%ignore kappa::Kappa::Instance (const int,const char **,const unsigned int);
+%ignore kappa::Kappa::Instance (const int,const char **);
+// Use the new Kappa::Instance std::string methods.
+%ignore kappa::Kappa::Instance (const char *,const char *,const unsigned int,LOCK_TYPE);
+%ignore kappa::Kappa::Instance (const char *,const char *,const unsigned int);
+%ignore kappa::Kappa::Instance (const char *,const char *);
 
 // Ignore non-exported (hidden) methods and variables
 %ignore kappa::Kappa::Cancel;
@@ -39,14 +73,14 @@ $KappaCUDA::VERSION = '1.3.0';
 %ignore cuDevice;
 %ignore kappa_version;
 %ignore kappa::Process::Process;
-#ifndef SWIGCSHARP
+#if !defined(SWIGCSHARP) && !defined(SWIGJAVA)
 %ignore kappa::Process::GetIOCallbackFunction;
 #endif
 %ignore kappa::Resource::Resource;
 %ignore kappa::Resource::CommandDone;
 %ignore kappa::Resource::CheckCommandReady;
 %ignore kappa::Context::Context;
-#ifndef SWIGCSHARP
+#if !defined(SWIGCSHARP) && !defined(SWIGJAVA)
 %ignore kappa::Recipient;
 #endif
 %ignore kappa::Variable::Variable;
@@ -63,6 +97,8 @@ $KappaCUDA::VERSION = '1.3.0';
 #include "KappaConfig.h"
 #include "kappa/ArgumentsDirection.h"
 #include "kappa/ExceptionHandler.h"
+#include "kappa/cudaGPU.h"
+#include "kappa/Lock.h"
 #include "kappa/Process.h"
 #include "kappa/Result.h"
 #include "kappa/Namespace.h"
@@ -81,7 +117,8 @@ $KappaCUDA::VERSION = '1.3.0';
 #include "kappa/Command.h"
 #include "kappa/Variable.h"
 #include "kappa/Array.h"
-#ifdef SWIGCSHARP
+#if defined(SWIGCSHARP) || defined(SWIGJAVA)
+#include "kappa/Commands/Keyword.h"
 #include "kappa/Recipient.h"
 #endif
 
@@ -100,6 +137,8 @@ using namespace kappa;
 %include "KappaConfig.h"
 %include "kappa/ArgumentsDirection.h"
 %include "kappa/ExceptionHandler.h"
+%include "kappa/cudaGPU.h"
+%include "kappa/Lock.h"
 %include "kappa/Process.h"
 %include "kappa/Result.h"
 %include "kappa/Namespace.h"
