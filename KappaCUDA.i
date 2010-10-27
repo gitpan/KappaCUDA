@@ -45,7 +45,7 @@
 
 #ifdef SWIGPERL
 %perlcode %{
-$KappaCUDA::VERSION = '1.3.3';
+$KappaCUDA::VERSION = '1.5.0';
 %}
 #endif
 

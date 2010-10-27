@@ -1,9 +1,8 @@
 --- #YAML:1.0
 name:               KappaCUDA
-version:            1.3.3
+version:            1.5.0
 abstract:           Module to give easy access to NVIDIA CUDA from Perl using the Kappa Library.
-author:
-    - Psi Lambda LLC
+author:  []
 license:            unknown
 distribution_type:  module
 configure_requires:
